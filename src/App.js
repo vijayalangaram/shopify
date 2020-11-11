@@ -1,16 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 // import './shopify.html';
+// import Viewico from './viewico.png';
+// import './Shofihy.js';
 
 function App() {
   return (
     <div className="App" >  
         
         {/* <shopify/> */}
+        {/* <Shofihy/> */}
 
 
           <div style={{backgroundColor: 'blue' }}> 
-           {/* <img src="" align="left" />  */}
+           <img src="" align="left" /> 
          <h1 style={{ color: "white",align:"left"} }> BrandCandy </h1>         
 
          <div className="form_wrapper"  style={{backgroundColor: 'blue' }}>
@@ -20,7 +23,7 @@ function App() {
      
       <div className="contact_submit" >
       <input type="search" style={{height: "32px",width: "300px" }} placeholder= "ENTER STORE URL"  />              
-      <button style={{height: "32px",width: "100px", color: "white", backgroundColor: "black" }} >SCAN</button>            
+      <button style={{height: "32px",width: "100px", color: "white", backgroundColor: "purple" }} >SCAN</button>            
       </div>    
 
      
@@ -31,24 +34,24 @@ function App() {
       
 
       <table width="100%"  height = "370"  style={{backgroundColor: 'blue' }}  >
-      <tr>
+      <tr>    
 
         <td> 
-       <img src="" align="right" />
+       <img src="./scan icon.png" align="center" />
       <div className="card_text">
-      <p style={{color: "white"}}>  Scan Your store</p>
+      <p style={{color: "white"}}> Scan Your store</p>
       </div>
       </td>
 
       <td>
-      <img src="" align="center" />
+      <img src="./eidt icon.png" align="center" />
       <div className="card_text">
       <p style={{color: "white"}}>Read Shopify Guidelines </p>     
       </div>
       </td>
 
       <td>
-      <img src="" align="left" />
+      <img src= "./viewico.png"  align="center" />
       <div className="card_text">
       <p style={{color: "white"}}>View Reports </p>
       </div>
