@@ -13,6 +13,8 @@
   }
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +29,17 @@
 .App-link {
   color: #61dafb;
 }
+
+.BrandCandy 
+{ 
+  margin-right: 1000px; 
+  font-size: 22px;
+}
+
+.contact_submit2{
+  margin-right:16px;
+}
+
 
 @keyframes App-logo-spin {
   from {

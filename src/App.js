@@ -11,19 +11,21 @@ function App() {
         {/* <shopify/> */}
         {/* <Shofihy/> */}
 
+          <div style={{backgroundColor: 'blue' }}>   
 
-          <div style={{backgroundColor: 'blue' }}> 
-           <img src="" align="left" /> 
-         <h1 style={{ color: "white",align:"left"} }> BrandCandy </h1>         
+          <div className= "BrandCandy">
+         <h1 style={{ color: "white",align:"left"} }>  <img src="./viewico.png"/> BrandCandy </h1>         
+         </div>
+
 
          <div className="form_wrapper"  style={{backgroundColor: 'blue' }}>
 
        <h1  style={{color: "white"}} className="detail_kyc_header">Check Your Store's Health</h1>
       <p  style={{color: "white"}} className="form_header"> Scan your store for counterfeits and IP infringement.   </p>       
      
-      <div className="contact_submit" >
-      <input type="search" style={{height: "32px",width: "300px" }} placeholder= "ENTER STORE URL"  />              
-      <button style={{height: "32px",width: "100px", color: "white", backgroundColor: "purple" }} >SCAN</button>            
+      <div className="contact_submit2" >
+       <input type="search" style={{height: "32px",width: "300px", align:"center" }} placeholder= "ENTER YOUR STORE URL"  />               
+      <button style={{height: "32px",width: "100px", color: "black", backgroundColor: "#4b8cce" }} >SCAN</button>            
       </div>    
 
      
@@ -36,34 +38,31 @@ function App() {
       <table width="100%"  height = "370"  style={{backgroundColor: 'blue' }}  >
       <tr>    
 
-        <td> 
-       <img src="./scan icon.png" align="center" />
+        <td>       
       <div className="card_text">
-      <p style={{color: "white"}}> Scan Your store</p>
+      <img src="/src/viewico.png"  height="55" width="45" />
+      <p style={{color: "white"}}> Scan <br/> Your store</p>
       </div>
       </td>
 
       <td>
-      <img src="./eidt icon.png" align="center" />
       <div className="card_text">
-      <p style={{color: "white"}}>Read Shopify Guidelines </p>     
+      <img src="\viewico.png"  height="55" width="45" />
+      <p style={{color: "white"}}>Read Shopify <br/> Guidelines </p>     
       </div>
       </td>
 
       <td>
-      <img src= "./viewico.png"  align="center" />
       <div className="card_text">
+      <img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
       <p style={{color: "white"}}>View Reports </p>
       </div>
       </td>      
       </tr>
       
       </table>
-
        </div>
-
        </div>
-
     </div>
   );
 }
