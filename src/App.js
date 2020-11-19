@@ -1,17 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 // import './shopify.html';
 // import Viewico from './viewico.png';
-// import './Shofihy.js';
+import Shopifyscrppage from './Shopifyscrppage';
 
 function App() {
-  return (
+  return (    
     <div className="App" >  
         
-        {/* <shopify/> */}
-        {/* <Shofihy/> */}
-
-          <div style={{backgroundColor: 'blue' }}>   
+        <Shopifyscrppage/>
+      
+          {/* <div style={{backgroundColor: 'blue' }}>   
 
           <div className= "BrandCandy">
          <h1 style={{ color: "white",align:"left"} }>  <img src="./viewico.png"/> BrandCandy </h1>         
@@ -62,7 +61,7 @@ function App() {
       
       </table>
        </div>
-       </div>
+       </div> */}
     </div>
   );
 }
