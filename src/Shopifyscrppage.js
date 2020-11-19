@@ -24,7 +24,7 @@ class Shopifyscrppage extends Component {
 
 <div className="contact_submit2" >
 <input type="search" style={{height: "32px",width: "300px", align:"center" }} placeholder= "ENTER YOUR STORE URL"  />               
-<button  style={{height: "32px",width: "100px", color: "black", backgroundColor: "#4b8cce" }}  onClick=  >SCAN</button>            
+<button  style={{height: "32px",width: "100px", color: "black", backgroundColor: "#4b8cce" }} >SCAN</button>            
 </div>    
 
 
