@@ -26,6 +26,35 @@
   color: white;
 }
 
+.Reporttitle {
+  text-align: 100px;
+  color:white;
+  background:blue;
+  padding:1px;
+  font-size: 30px;  
+  padding-right: 700px;
+}
+
+
+/* .Reporttitlesec {
+  text-align: right;
+  color:white;
+  background:blue;
+  padding:1px;
+  font-size: 20px;   
+} */
+
+.buttong{
+ margin-left: "69px" ;
+}
+
+
+
+.Imagesscanned {
+  border-style: ridge;
+}
+
+
 .App-link {
   color: #61dafb;
 }
