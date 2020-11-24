@@ -3,12 +3,16 @@ import './App.css';
 // import './shopify.html';
 // import Viewico from './viewico.png';
 import Shopifyscrppage from './Shopifyscrppage';
+import Carbonpagesecond from './Carbonpagesecond';
+
 
 function App() {
   return (    
     <div className="App" >     
 
-        <Shopifyscrppage/>
+        {/* <Shopifyscrppage/> */}
+        <Carbonpagesecond/>
+
 
        
        {/* <div className="Reporttitle">
