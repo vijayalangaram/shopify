@@ -26,6 +26,14 @@
   color: white;
 }
 
+.storeusrl{
+  margin-right: 12px;
+}
+
+.Howitzworks {
+  margin-top: 90px;
+}
+
 .Reporttitle {
   text-align: 100px;
   color:white;
@@ -35,6 +43,10 @@
   padding-right: 700px;
 }
 
+
+.tablebotto {
+  margin-bottom: 123px;
+}
 
 /* .Reporttitlesec {
   text-align: right;

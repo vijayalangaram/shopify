@@ -2,15 +2,16 @@
 import './App.css';
 // import './shopify.html';
 // import Viewico from './viewico.png';
-// import Shopifyscrppage from './Shopifyscrppage';
+import Shopifyscrppage from './Shopifyscrppage';
 
 function App() {
   return (    
-    <div className="App" >          
-        {/* <Shopifyscrppage/> */}
+    <div className="App" >     
+
+        <Shopifyscrppage/>
 
        
-       <div className="Reporttitle">
+       {/* <div className="Reporttitle">
          <h1> Report </h1>      
          </div>       
         
@@ -300,10 +301,9 @@ function App() {
 
 <div>
     <p align="center">Since we're not affiliated with Shopify,If your store still gets <br/>shut down you can contact Shopify Support </p>
-</div>
+</div> */}
 
      
-
 
     
 
@@ -360,6 +360,8 @@ function App() {
       </table>
        </div>
        </div> */}
+
+
     </div>
   );
 }
