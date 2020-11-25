@@ -4,6 +4,7 @@ import './App.css';
 // import Viewico from './viewico.png';
 import Shopifyscrppage from './Shopifyscrppage';
 import Carbonpagesecond from './Carbonpagesecond';
+import Aluminipage from './Aluminipage';
 
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
     <div className="App" >     
 
         {/* <Shopifyscrppage/> */}
-        <Carbonpagesecond/>
-
+        {/* <Carbonpagesecond/> */}
+         <Aluminipage/>
 
        
        {/* <div className="Reporttitle">
