@@ -6,6 +6,11 @@ import Shopifyscrppage from './Shopifyscrppage';
 import Carbonpagesecond from './Carbonpagesecond';
 import Aluminipage from './Aluminipage';
 import Embededpopup from './Embededpopup';
+import Shopifyscanpagesecon from './Shopifyscanpagesecon';
+import Brandcandypaymentpage from './Brandcandypaymentpage';
+
+
+
 
 function App() {
   return (    
@@ -14,7 +19,9 @@ function App() {
         {/* <Shopifyscrppage/> */}
         {/* <Carbonpagesecond/> */} 
          {/* <Aluminipage/> */}
-         <Embededpopup/>
+         {/* <Embededpopup/> */}
+         {/* <Shopifyscanpagesecon/> */}
+         <Brandcandypaymentpage/>
 
        
        {/* <div className="Reporttitle">
