@@ -5,15 +5,16 @@ import './App.css';
 import Shopifyscrppage from './Shopifyscrppage';
 import Carbonpagesecond from './Carbonpagesecond';
 import Aluminipage from './Aluminipage';
-
+import Embededpopup from './Embededpopup';
 
 function App() {
   return (    
     <div className="App" >     
 
         {/* <Shopifyscrppage/> */}
-        {/* <Carbonpagesecond/> */}
-         <Aluminipage/>
+        {/* <Carbonpagesecond/> */} 
+         {/* <Aluminipage/> */}
+         <Embededpopup/>
 
        
        {/* <div className="Reporttitle">
