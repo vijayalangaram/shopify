@@ -1,41 +1,29 @@
-// import logo from './logo.svg';
+import React, { Component } from "react";
+import Reportpage from './Reportpage';
 import './App.css';
-// import './shopify.html';
-// import Viewico from './viewico.png';
-import Shopifyscrppage from './Shopifyscrppage';
-import Carbonpagesecond from './Carbonpagesecond';
-import Aluminipage from './Aluminipage';
-import Embededpopup from './Embededpopup';
-import Shopifyscanpagesecon from './Shopifyscanpagesecon';
-import Brandcandypaymentpage from './Brandcandypaymentpage';
-import Reportpagethanks from './Reportpagethanks';  
-import Reporthomepage from './Reporthomepage';  
-import Reportpagereportdownload from './Reportpagereportdownload';  
 
+class Reportpagethanks extends Component {
+     render() {
+     return (                   
+    <div className="App" >  
 
-function App() {
-  return (    
-    <div className="App" >     
-
-        {/* <Shopifyscrppage/> */}
-        {/* <Reporthomepage/> */}
-        {/* <Carbonpagesecond/> */} 
-         {/* <Aluminipage/> */}
-         {/* <Embededpopup/> */}
-         {/* <Shopifyscanpagesecon/> */}
-         {/* <Brandcandypaymentpage/> */}
-         {/* <Reportpagethanks/> */}
-         {/* <Reportpagethanks/> */}
-         <Reportpagereportdownload/>
-
-       
-       {/* <div className="Reporttitle">
+     <div className="Reporttitle">
          <h1> Report </h1>      
          </div>       
         
          <div >
          <h1>  </h1>         
          </div>
+
+<table className="Reportpagethankstab" width="70%" height = "10" border="1" bardercolor="black" align="center" >
+<tr>    
+<td>       
+<div>
+<h2 align="center" color="white">Thank you for unlocking BrandCandy </h2> 
+</div>
+</td>      
+</tr>
+</table>
 
 
 <table className="Imagesscanned" width="60%" height = "80" border="1"  bardercolor="black" align="center" >
@@ -319,68 +307,10 @@ function App() {
 
 <div>
     <p align="center">Since we're not affiliated with Shopify,If your store still gets <br/>shut down you can contact Shopify Support </p>
-</div> */}
+</div> 
 
-     
-
-    
-
-      
-          {/* <div style={{backgroundColor: 'blue' }}>   
-
-          <div className= "BrandCandy">
-         <h1 style={{ color: "white",align:"left"} }>  <img src="./viewico.png"/> BrandCandy </h1>         
-         </div>
-
-
-         <div className="form_wrapper"  style={{backgroundColor: 'blue' }}>
-
-       <h1  style={{color: "white"}} className="detail_kyc_header">Check Your Store's Health</h1>
-      <p  style={{color: "white"}} className="form_header"> Scan your store for counterfeits and IP infringement.   </p>       
-     
-      <div className="contact_submit2" >
-       <input type="search" style={{height: "32px",width: "300px", align:"center" }} placeholder= "ENTER YOUR STORE URL"  />               
-      <button style={{height: "32px",width: "100px", color: "black", backgroundColor: "#4b8cce" }} >SCAN</button>            
-      </div>    
-
-     
-        
-      <div className="card_wrapper">    
-      <h2 style={{color: "white"}}> HOW IT'S WORKS? </h2>  
-      </div>  
-      
-
-      <table width="100%"  height = "370"  style={{backgroundColor: 'blue' }}  >
-      <tr>    
-
-        <td>       
-      <div className="card_text">
-      <img src="/src/viewico.png"  height="55" width="45" />
-      <p style={{color: "white"}}> Scan <br/> Your store</p>
-      </div>
-      </td>
-
-      <td>
-      <div className="card_text">
-      <img src="\viewico.png"  height="55" width="45" />
-      <p style={{color: "white"}}>Read Shopify <br/> Guidelines </p>     
-      </div>
-      </td>
-
-      <td>
-      <div className="card_text">
-      <img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
-      <p style={{color: "white"}}>View Reports </p>
-      </div>
-      </td>      
-      </tr>
-      
-      </table>
-       </div>
-       </div> */}
-
-
-    </div>
+</div>  
   );
+  }
 }
-export default App;
+export default Reportpagethanks;

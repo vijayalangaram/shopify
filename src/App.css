@@ -46,6 +46,13 @@
 }
 
 
+.Reportpagethankstab {
+  background-color: limegreen;
+}
+
+.Reportpagereportdownloadtab{
+  background-color: #eced20;
+}
 
 .Reporttitle {
   text-align: 100px;
