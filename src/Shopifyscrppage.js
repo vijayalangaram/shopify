@@ -17,48 +17,41 @@ class Shopifyscrppage extends Component {
 
 <div className="form_wrapper"  style={{backgroundColor: '#3047eb' }}>
 
-<h1  style={{color: "white", fontSize:"64px"}} className="storehealth">Check your store's health</h1>
-<p className="counterfeitsandIPinf" style={{color: "white", fontSize:"27px"}} className="form_header"> Scan your store for counterfeits and IP infringement.   </p>       
+<h1  style={{color: "white", fontSize:"78px"}} className="storehealth">Check your store's health</h1>
+<p className="counterfeitsandIPinf" style={{color: "white", fontSize:"34px"}} className="form_header"> Scan your store for counterfeits and IP infringement.   </p>       
 
 <div className="contact_submit2" >
-<input className="storeusrl" type="search" style={{height: "50px", width: "480px", fontSize:"25px", align:"center"}} placeholder= "Enter your store url"  />              
-<button  style={{height: "50px",width: "150px", color: "white",fontSize:"15px", backgroundColor: "#4169E1" }} >Scan</button>            
-</div>    
-
-<div>
-  <h1></h1>   
-  <h1></h1>  
-  <h1></h1>   
-</div>  
-
+<input className="storeusrl" type="search" style={{height: "63px", width: "600px", fontSize:"25px", align:"center"}} placeholder= "    Enter your store url"  />              
+<button  style={{height: "63px",width: "150px", color: "white",fontSize:"25px", backgroundColor: "#252c8f" }} >Scan</button>            
+</div>   
 
 
 <div className="Howitzworks">    
-<h2 style={{color: "white",fontSize:"29px"}}> How It Works ? </h2>  
+<h2 style={{color: "white",fontSize:"35px"}}> How It Works ? </h2>  
 </div>  
 
 
-<table width="55%"  height = "280"  align="center" style={{backgroundColor: '#3047eb' }}  >
+<table width="45%"  height = "240"  align="center" style={{backgroundColor: '#3047eb' }}  >
 <tr>    
 
 <td>       
 <div className="card_text">
-<img src="/src/viewico.png"  height="55" width="45" />
-<p style={{color: "white"}}> Scan <br/> Your store</p>
+<img src="/src/viewico.png" height="60" width="50" />
+<p style={{color: "white",fontSize:"22px"}}> Scan <br/> Your store</p>
 </div>
 </td>
 
 <td>
 <div className="card_text">
-<img src="./viewico.png"  height="55" width="45" />
-<p style={{color: "white"}}>Read Shopify <br/> Guidelines </p>     
+<img src="./viewico.png" height="60" width="50" />
+<p style={{color: "white",fontSize:"22px"}}>Read Shopify <br/> Guidelines </p>     
 </div>
 </td>
 
 <td>
 <div className="card_text">
-<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
-<p style={{color: "white"}}>View <br/> Reports </p>
+<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png" height="60" width="50"/>
+<p style={{color: "white",fontSize:"22px"}}>View <br/> Reports </p>
 </div>
 </td>      
 </tr>

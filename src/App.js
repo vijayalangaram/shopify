@@ -17,7 +17,7 @@ function App() {
   return (    
     <div className="App" >     
 
-        {/* <Shopifyscrppage/> */}
+        <Shopifyscrppage/>
         {/* <Reporthomepage/> */}
         {/* <Carbonpagesecond/> */} 
          {/* <Aluminipage/> */}
@@ -26,7 +26,7 @@ function App() {
          {/* <Brandcandypaymentpage/> */}
          {/* <Reportpagethanks/> */}
          {/* <Reportpagethanks/> */}
-         <Reportpagereportdownload/>
+         {/* <Reportpagereportdownload/> */}
 
        
        {/* <div className="Reporttitle">
