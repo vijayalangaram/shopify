@@ -17,9 +17,9 @@ function App() {
   return (    
     <div className="App" >     
 
-        <Shopifyscrppage/>
+        {/* <Shopifyscrppage/> */}
         {/* <Reporthomepage/> */}
-        {/* <Carbonpagesecond/> */} 
+        <Carbonpagesecond/> 
          {/* <Aluminipage/> */}
          {/* <Embededpopup/> */}
          {/* <Shopifyscanpagesecon/> */}

@@ -5,7 +5,7 @@ import './App.css';
 
 class Carbonpagesecond extends Component {
   render() {
-  return (        
+  return (         
 
     <div className="asdsadApp" >  
 
@@ -19,7 +19,7 @@ class Carbonpagesecond extends Component {
 
 <td>
 <div className="card_text">
-<p style={{color: "black"}}>| Store</p>
+<p style={{color: "black"}}>|Store</p>
 </div>
 </td> 
 
@@ -35,15 +35,15 @@ class Carbonpagesecond extends Component {
 </div>
 </td> 
 
-<td>
+{/* <td>
 <div className="card_text">
 <p style={{color: "black"}}></p>
 </div>
-</td> 
+</td>  */}
 
 <td>
 <div className="card_text">
-<p style={{color: "black"}}>0</p>
+<p style={{color: "black"}}>|(0)</p>
 </div>
 </td> 
     
@@ -53,129 +53,163 @@ class Carbonpagesecond extends Component {
 
 
 
-<table className="carbonpagetable" width="100%"  height = "40"  align="center" color="black" style={{backgroundColor: '#black'}}  >
+<table className="carbonpagetable" width="100%"  height = "12"  align="center" color="black" style={{backgroundColor: '#black'}}  >
 <tr>  
 <td>
 <div>
-<p style={{color: "white", align:"center",fontSize:"45px" }}>C A R B O N <u>38</u></p>
+<p style={{color: "white", align:"center",fontSize:"35px" }}>C A R B O N <u>38</u></p>
 </div>
 </td> 
-<br/>
-   
+<br/>   
 </tr>
 </table>
 
 
-<table className="carbonpagetable" width="100%"  height = "40"  align="center" color="black" style={{backgroundColor: '#black'}}  >
+<table className="carbonpagetablese" width="100%"  height = "11"  align="center" color="black" style={{backgroundColor: '#black'}}  >
 <tr>  
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>NEW.......NOTEWORTHY .......SHOP.......BOTTOMS.......TOPS......SHOES......DESIGNERS.....SALE
- </p>
-</div>
-</td> 
-<br/>
-   
-</tr>
-</table>
-
-
-
-<table width="50%"  height = "800%"  align="right" style={{backgroundColor: '#36454F' }}  >
-<tr>  
-<td>       
-<div className="card_text">
-<img src="/src/viewico.png"  height="400" width="400" />
-</div>
- 
-<br/>
-<div className="card_text">
-<img src="/src/viewico.png"  height="400" width="400" />
-</div> 
-<br/>
-<div className="card_text">
-<img src="/src/viewico.png"  height="400" width="400" />
+<p style={{color: "white", align:"center"}}>NEW</p>
 </div>
 </td>
 
-</tr>
+<td>
+<div>
+<p style={{color: "white", align:"center"}}>NOTEWORTHY</p>
+</div>
+</td> 
 
-<br/> 
-<tr>
+<td>
+<div>
+<p style={{color: "white", align:"center"}}>SHOP</p>
+</div>
+</td> 
+
+<td>
+<div>
+<p style={{color: "white", align:"center"}}>BOTTOMS</p>
+</div>
+</td> 
+
+<td>
+<div>
+<p style={{color: "white", align:"center"}}>TOPS</p>
+</div>
+</td> 
+
+<td>
+<div>
+<p style={{color: "white", align:"center"}}>SHOES</p>
+</div>
+</td> 
+
+<td>
+<div>
+<p style={{color: "white", align:"center"}}>DESIGNERS</p>
+</div>
+</td> 
+
+<td>
+<div>
+<p style={{color: "white", align:"center"}}>SALE</p>
+</div>
+</td> 
+
+
+<td>
+<div>
+<p style={{color: "white", align:"center"}}> Search ____</p>
+</div>
+</td> 
+</tr>
+</table>
+
+
+
+<table width="50%"  height = "800%" align="right" style={{backgroundColor: 'white' }}  >
+<tr>  
 <td>       
-<div className="card_text">
-<img src="/src/viewico.png"  height="40" width="40" />
+<div className="cardtextcar">
+<img src="/src/viewico.png"  height="400" width="400" />
 </div>
  
 <br/>
-<div className="card_text">
-<img src="/src/viewico.png"  height="40" width="40" />
+<div className="cardtextcar">
+<img src="/src/viewico.png"  height="400" width="400" />
 </div> 
 <br/>
-
-<div className="card_text">
-<img src="/src/viewico.png"  height="40" width="40" />
+<div className="cardtextcar">
+<img src="/src/viewico.png"  height="400" width="400" />
 </div>
-
-
-<div className="card_text">
-<img src="/src/viewico.png"  height="40" width="40" />
-</div>
-
-<div className="card_text">
-<img src="/src/viewico.png"  height="40" width="40" />
-</div>
-
-</td> 
-
+</td>
 </tr>
-
 </table>
+
+<table  className="minishoeicons" width="3%"  height = "700%" align="right" style={{backgroundColor: 'grey' }}  >  
+<tr>
+<td>
+<img src="left.jpg"  height="60" width="60"/>
+<img src="left.jpg"  height="60" width="60"/>
+<img src="left.jpg"  height="60" width="60"/>
+<img src="left.jpg"  height="60" width="60"/>
+<img src="left.jpg"  height="60" width="60"/>
+</td>
+ </tr>
+</table>
+
 
 
 
 
 <table width="50%"  height = "800%"  align="right" style={{backgroundColor: '#black' }}  >
 <tr>  
-       
 
-<td>       
+<td>
+<p>Home Desingers Nike Womens Air max 200SE</p>
+
 <div className="card_text">
 {/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<p style={{color: "black",fontSize:"35px" }}> NIKE <br/> <span style={{color: "black",fontSize:"15px" }}>Women's Air Max 200 Se</span> </p>
+<p style={{color: "black",fontSize:"25px" }}> NIKE <br/> <span style={{color: "black",fontSize:"15px" }}>Women's Air Max 200 Se</span> </p>
 </div>
 </td>
 </tr>
-
-<br/>
 
 <tr>
 <td>       
 <div className="card_text">
 {/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<p style={{color: "black",fontSize:"35px" }}> $130 c U.S Only <br/> <span style={{color: "black",fontSize:"15px" }}>SIZE NIKE SIZE CHART </span> </p>
+<p style={{color: "black",fontSize:"20px" }}> $130 c  <br/>U.S Only <br/> <span style={{color: "black",fontSize:"12px" }}>SIZE NIKE SIZE CHART </span> </p>
 </div>
 </td>
 </tr>
+
+<tr>
+
+<td>  
+<button>7</button>
+<button>12</button>
+<button>9</button>
+<button>6</button> 
+<button>5</button> 
+</td> 
+</tr>
 <br/>
-
-
 <div className="contact_submit2" >            
-<button  style={{height: "70px",width: "450px", color: "white",fontSize:"25px", backgroundColor: "black" }} >ADD TO SHOPPING BAG </button>            
+<button style={{height: "60px",width: "400px", color: "white",fontSize:"20px", backgroundColor: "black" }} >ADD TO SHOPPING BAG </button>      
+<button style={{height: "45px",width: "65px", color: "white",fontSize:"25px", backgroundColor: "#252c8f" }}>LIKE</button>            
 </div>  
 <br/>
-
        
 <div className="card_text">
 {/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<h1>PRODUCT DETAILS   </h1>
+<p>PRODUCT DETAILS </p>
 {/* <p style={{color: "black",fontSize:"24px" }}> PRODUCT DETAILS  <br/></p> */}
 </div>
 
 
 <div>
 {/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<p style={{color: "black",fontSize:"15px" }}> The Nike Alr Max 200 SE offers undeniable appeal for the <br/> fashion-minded set. With an emphasis on <br/> cushioning for superior comfort with a foam midsole and <br/> cushy insole, flexibility, and durability, this cool <br/>sneaker boasts the performance features you expect<br/> from a premium shoe. Ultra-modern yet still<br/> reminiscent of the 1987 original, this lightweight pair<br/> will be in heavy rotation all season long. 
+<p style={{color: "black",fontSize:"15px" }}> The Nike Alr Max 200 SE offers undeniable appeal for <br/>the fashion-minded set. With an emphasis on <br/> cushioning for superior comfort with a foam midsole<br/> and cushy insole, flexibility, and durability, this cool <br/>sneaker boasts the performance features you expect<br/> from a premium shoe. Ultra-modern yet still<br/> reminiscent of the 1987 original, this lightweight pair<br/> will be in heavy rotation all season long. 
 <br/><br/>sThis item does not ship internationally. <br/></p>
 </div>
 

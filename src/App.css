@@ -63,6 +63,14 @@
   padding-right: 700px;
 }
 
+.cardtextcar{
+  margin-right: 265px;
+}
+
+
+.minishoeicons{
+  margin-right: -481px;
+}
 
 .tablebotto {
   margin-bottom: 123px;
@@ -71,7 +79,13 @@
 .carbonpagetable{
   background: black;
   color: black;
+  margin-top: -9px;
+}
 
+.carbonpagetablese {
+  background: black;
+  color: black;
+  margin-top: -41px;
 }
 
 /* .Reporttitlesec {
