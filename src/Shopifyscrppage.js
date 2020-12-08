@@ -17,12 +17,13 @@ class Shopifyscrppage extends Component {
 
 <div className="form_wrapper"  style={{backgroundColor: '#3047eb' }}>
 
-<h1  style={{color: "white", fontSize:"78px"}} className="storehealth">Check your store's health</h1>
-<p className="counterfeitsandIPinf" style={{color: "white", fontSize:"34px"}} className="form_header"> Scan your store for counterfeits and IP infringement.   </p>       
+<h1 className="checkstorehealth" style={{color: "white", fontSize:"78px"}} >Check your store's health</h1>
+<p className="counterfeitsandIPinf" style={{color: "white", fontSize:"33px",left: "20.87%", right: "20.79%" }}> Scan your store for counterfeits and IP infringement.   </p>       
+
 
 <div className="contact_submit2" >
-<input className="storeusrl" type="search" style={{height: "63px", width: "600px", fontSize:"25px", align:"center"}} placeholder= "    Enter your store url"  />              
-<button  style={{height: "63px",width: "150px", color: "white",fontSize:"25px", backgroundColor: "#252c8f" }} >Scan</button>            
+<input className="storeusrl" type="search" style={{height: "63px", width: "520px", fontSize:"25px", align:"center"}} placeholder= "    Enter your store url"  />              
+<button className="Scanbutton" style={{height: "63px",width:"180px", color: "white",fontSize:"25px", backgroundColor: "#243cbc" }} >Scan</button>            
 </div>   
 
 
@@ -36,17 +37,18 @@ class Shopifyscrppage extends Component {
 
 <td>       
 <div className="card_text">
-<img src="/src/viewico.png" height="60" width="50" />
+<img src="C:/Users/CLSS-PC037/Desktop/bigfm/sho/shopify/src/images/viewicosjp.jpg" height="60" width="50" />
 <p style={{color: "white",fontSize:"22px"}}> Scan <br/> Your store</p>
 </div>
 </td>
 
 <td>
 <div className="card_text">
-<img src="./viewico.png" height="60" width="50" />
-<p style={{color: "white",fontSize:"22px"}}>Read Shopify <br/> Guidelines </p>     
+<img src="src/images/viewicosjp.jpg" height="60" width="50" />
+<p style={{color: "white",fontSize:"22px"}}>  Read Shopify <br/> Guidelines </p>     
 </div>
 </td>
+
 
 <td>
 <div className="card_text">

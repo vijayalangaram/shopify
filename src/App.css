@@ -28,10 +28,14 @@
 
 .storeusrl{
   margin-right: 12px;
+  border-radius: 6px;
 }
-
+ 
 .Howitzworks {
   margin-top: 90px;
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
 }
 
 .imgmargin{
@@ -42,9 +46,37 @@
 }
 
 .EmbeddedApp{
-  margin-right: 143px;
+  margin-right: 352px;
+  font-family: Source Sans Pro;
+  font-style: normal;
 }
 
+
+.myshopico{
+  margin-left: -412px;
+}
+
+.brncandico{  
+margin-right: -396px;
+margin-top: -139px;
+}
+
+.middleicon{
+  margin-right: -90px;
+margin-top: -139px;
+}
+
+
+.viewdetaih{
+  color: rgb(12, 16, 240);
+  font-size: 24px;
+  margin-left: 446px;
+}
+
+.Embeddedapp{
+  font-family: halis grotesque bold;
+  font-style: normal;
+}
 
 .Reportpagethankstab {
   background-color: limegreen;
@@ -69,7 +101,29 @@
 
 
 .minishoeicons{
-  margin-right: -481px;
+  margin-right: -530px;
+}
+
+.alimiheaderpage{
+  margin-bottom: -48px;
+  margin-top: -33px;
+}
+
+.aluminititl{
+  font-family: Inter;
+  font-style: normal;
+  margin-right: 106px;
+}
+
+.newarriv {
+  font-family: Inter;
+  font-style: normal;
+  margin-right: 1206px;
+}
+
+.ourfallc{
+  font-family: Inter;
+  font-style: normal;
 }
 
 .tablebotto {
@@ -79,7 +133,9 @@
 .carbonpagetable{
   background: black;
   color: black;
-  margin-top: -9px;
+  font-family: Inter;
+  font-style: normal;
+  margin-top: -12px;
 }
 
 .carbonpagetablese {
@@ -87,6 +143,55 @@
   color: black;
   margin-top: -41px;
 }
+
+
+.HomDesingerseNike{
+  margin-right: 898px;
+}
+
+.nikeu{
+  margin-right: 410px;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.nikeuPRODUCT {
+  margin-right: 160px;
+  font-family: Inter;
+  font-style: normal;
+}
+
+
+.paragnikealt {
+  margin-right: 15px;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.nikeuse{
+  margin-right: 295px;
+  font-family: Inter;
+  font-style: normal;
+}
+
+
+.nikeusesp {
+  margin-right: 280px;
+  font-family: Inter;
+  font-style: normal;
+}
+
+
+.btn-group button {
+  background-color: white; /* Green background */
+  border: 1px solid rgb(7, 14, 7); /* Green border */
+  color: black; /* White text */
+  padding: 08px 14px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: center; /* Float the buttons side by side */
+}
+
+
 
 /* .Reporttitlesec {
   text-align: right;
@@ -115,12 +220,60 @@
 { 
   margin-right: 1000px; 
   font-size: 22px;
+  font-family: Brandon Grotesque;
+}
+
+.checkstorehealth {
+/* position: absolute;
+left: 12.42%;
+right: 12.34%;
+top: 20.16%;
+bottom: 70.88%; */
+font-family: Inter;
+font-style: normal;
+/* font-weight: 800; */
+font-size: 70px;
+line-height: 80px;
+}
+
+.counterfeitsandIPinf {
+  font-family: Inter;
+  font-style: normal;
+}
+
+
+.Scanbutton{
+  font-family: Inter;
+  font-style: normal;
+  border-radius: 6px;
 }
 
 .contact_submit2{
   margin-right:16px;
+  font-family: Inter;
+font-style: normal;
 }
 
+.likecarpon{
+  border-radius: 50%;
+}
+
+
+.titleduetosite{
+font-family: Inter;
+font-style: normal;
+font-Size: 15px;
+}
+
+.subtitilecarbon{  
+font-family: Inter;
+font-style: normal;
+}
+
+.card_text{
+  font-family: Inter;
+font-style: normal;
+}
 
 @keyframes App-logo-spin {
   from {

@@ -9,41 +9,60 @@ class Carbonpagesecond extends Component {
 
     <div className="asdsadApp" >  
 
- <table width="100%"  height = "40"  align="center" style={{backgroundColor: '#black'}}  >
+
+<table width="100%" height = "10"  align="center" style={{backgroundColor: '#b6a270'}}  >
 <tr>    
 <td>
-<div className="card_text">
-<p style={{color: "black"}}>World(USD)</p>
+<div className="titleduetosite">
+<p style={{color: "white"}}>DUE TO SITE MAINTENANCE, IT MAY TAKE LONGER THAN USUAL FOR OUR CUSTOMER SERVICE TEAM TO RESPOND. 
+</p>
+</div>
+</td>  
+</tr>
+</table>
+
+<table width="100%"  height = "40"  align="center" style={{backgroundColor: '#black'}}  >
+<tr>    
+<td>
+<div className="subtitilecarbon">
+{/* <img src="" height="5" width="5" /> */}
+<a href="" style={{color: "black",fontSize:"20px"}}> <img src="left.jpg"height="30" width="40"/>World(USD) </a>
+{/* <p style={{color: "black",fontSize:"22px"}}> <img src="left.jpg"height="30" width="40"/> World(USD)</p> */}
 </div>
 </td>  
 
 <td>
 <div className="card_text">
-<p style={{color: "black"}}>|Store</p>
+<a href="" style={{color: "black",fontSize:"20px"}}> <img src="left.jpg"height="30" width="40"/>|Store</a>
+{/* <p style={{color: "black",fontSize:"22px"}}> <img src="left.jpg"  height="30" width="40"/> |Store</p> */}
 </div>
 </td> 
 
 <td>
 <div className="card_text">
-<p style={{color: "black"}}>Free Shiping Over $200+ always free return</p>
+<p style={{color: "black",fontSize:"23px"}}>Free Shiping Over $200+ always free returns</p>
+</div>
+</td> 
+
+
+<td>
+<div className="card_text">
+<a href="" style={{color: "black",fontSize:"20px"}}> <img src="left.jpg" height="30" width="40"/>Sign in</a>
+{/* <p style={{color: "black",fontSize:"22px"}}> <img src="left.jpg"  height="30" width="40"/> |Store</p> */}
 </div>
 </td> 
 
 <td>
 <div className="card_text">
-<p style={{color: "black"}}>Sign in|View Orders </p>
+<a href="" style={{color: "black",fontSize:"20px"}}> <img src="left.jpg" height="30" width="40"/>|View Orders</a>
+{/* <p style={{color: "black",fontSize:"22px"}}> <img src="left.jpg"  height="30" width="40"/> |Store</p> */}
 </div>
 </td> 
 
-{/* <td>
-<div className="card_text">
-<p style={{color: "black"}}></p>
-</div>
-</td>  */}
 
 <td>
 <div className="card_text">
-<p style={{color: "black"}}>|(0)</p>
+<p style={{color: "black",fontSize:"20px"}}> <img src="left.jpg"  height="30" width="40"/>|(0)</p>
 </div>
 </td> 
     
@@ -69,61 +88,79 @@ class Carbonpagesecond extends Component {
 <tr>  
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>NEW</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>NEW</a>
+{/* <p style={{color: "white", align:"center"}}>NEW</p> */}
 </div>
 </td>
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>NOTEWORTHY</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>NOTEWORTHY</a>
+{/* <p style={{color: "white", align:"center"}}>NOTEWORTHY</p> */}
 </div>
 </td> 
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>SHOP</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>SHOP</a>
+{/* <p style={{color: "white", align:"center"}}>SHOP</p> */}
 </div>
 </td> 
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>BOTTOMS</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>BOTTOMS</a>
+{/* <p style={{color: "white", align:"center"}}>BOTTOMS</p> */}
 </div>
 </td> 
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>TOPS</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>TOPS</a>
+{/* <p style={{color: "white", align:"center"}}>TOPS</p> */}
 </div>
 </td> 
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>SHOES</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>SHOES</a>
+{/* <p style={{color: "white", align:"center"}}>SHOES</p> */}
 </div>
 </td> 
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>DESIGNERS</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>DESIGNERS</a>
+{/* <p style={{color: "white", align:"center"}}>DESIGNERS</p> */}
 </div>
 </td> 
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}>SALE</p>
+<a href="" style={{color: "white",fontSize:"17px", align:"center"}}>SALE</a>
+{/* <p style={{color: "white", align:"center"}}>SALE</p> */}
 </div>
 </td> 
 
 
 <td>
 <div>
-<p style={{color: "white", align:"center"}}> Search ____</p>
+<p style={{color: "white", align:"center"}}>Search____</p>
 </div>
 </td> 
 </tr>
 </table>
 
+
+<table width="100%" height = "10"  align="right" style={{backgroundColor: 'white'}}  >
+<tr>    
+<td>
+<div className="HomDesingerseNike">
+<p style={{color: "black"}}> Home  Desingers  Nike  Womens  Air  max  200SE</p>
+</div>
+</td>  
+</tr>
+</table>
 
 
 <table width="50%"  height = "800%" align="right" style={{backgroundColor: 'white' }}  >
@@ -145,7 +182,9 @@ class Carbonpagesecond extends Component {
 </tr>
 </table>
 
-<table  className="minishoeicons" width="3%"  height = "700%" align="right" style={{backgroundColor: 'grey' }}  >  
+
+
+<table  className="minishoeicons" width="3%"  height = "700%" align="right" style={{backgroundColor: 'white' }}  >  
 <tr>
 <td>
 <img src="left.jpg"  height="60" width="60"/>
@@ -165,26 +204,27 @@ class Carbonpagesecond extends Component {
 <tr>  
 
 <td>
-<p>Home Desingers Nike Womens Air max 200SE</p>
+{/* <p className="nikeu" style={{color: "black",fontSize:"25px" }}> NIKE <br/>  */}
+<h2 className="nikeu" style={{color: "black",fontSize:"25px" }}> NIKE <br/> </h2>
+<span className="nikeuse" style={{color: "black",fontSize:"18px" }}>Women's Air Max 200 Se</span> 
+{/* </p> */}
 
-<div className="card_text">
-{/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<p style={{color: "black",fontSize:"25px" }}> NIKE <br/> <span style={{color: "black",fontSize:"15px" }}>Women's Air Max 200 Se</span> </p>
-</div>
 </td>
+
 </tr>
 
 <tr>
 <td>       
-<div className="card_text">
+<div className="cardext">
 {/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<p style={{color: "black",fontSize:"20px" }}> $130 c  <br/>U.S Only <br/> <span style={{color: "black",fontSize:"12px" }}>SIZE NIKE SIZE CHART </span> </p>
+<h2 className="nikeu" style={{color: "black",fontSize:"25px" }}> $130 <br/> </h2>
+<span className="nikeusesp" style={{color: "black",fontSize:"14px" }}>U.S Only</span>  
+<span style={{color: "black",fontSize:"12px" }}>SIZE   NIKE SIZE CHART </span>
 </div>
 </td>
 </tr>
-
-<tr>
-
+<br/>
+{/* <tr>
 <td>  
 <button>7</button>
 <button>12</button>
@@ -192,34 +232,69 @@ class Carbonpagesecond extends Component {
 <button>6</button> 
 <button>5</button> 
 </td> 
-</tr>
+</tr> */}
+
+
+<div class="btn-group">
+<button>6</button>
+<button>6.5</button>
+<button>7</button>
+<button>7.5</button>
+<button>8</button>
+<button>8.5</button> 
+<button>9</button> 
+<button>9.5</button> 
+<button>10</button> 
+</div>
 <br/>
-<div className="contact_submit2" >            
-<button style={{height: "60px",width: "400px", color: "white",fontSize:"20px", backgroundColor: "black" }} >ADD TO SHOPPING BAG </button>      
-<button style={{height: "45px",width: "65px", color: "white",fontSize:"25px", backgroundColor: "#252c8f" }}>LIKE</button>            
+
+
+{/* <div className="contact_submit2" >            
+<button style={{height: "50px",width: "400px", color: "white",fontSize:"20px", backgroundColor: "black" }} >ADD TO SHOPPING BAG </button>             
+<button className="likecarpon" style={{height: "55px", width: "60px", color: "white",backgroundColor: "white" }}></button>            
 </div>  
-<br/>
+<br/> */}
+
+
+<tr>
+<td>
+<button style={{height: "50px",width: "350px", color: "white",fontSize:"20px", backgroundColor: "black" }} >ADD TO SHOPPING BAG </button>             
+</td>
+
+<td>
+<button className="likecarpon" style={{height: "55px", width: "60px", color: "white",backgroundColor: "white" }}></button>            
+</td>
+
+</tr>
        
 <div className="card_text">
-{/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<p>PRODUCT DETAILS </p>
+<h2 className="nikeuPRODUCT"> PRODUCT DETAILS </h2><p></p>
 {/* <p style={{color: "black",fontSize:"24px" }}> PRODUCT DETAILS  <br/></p> */}
 </div>
 
 
 <div>
 {/* <img src="/src/viewico.png"  height="55" width="45" /> */}
-<p style={{color: "black",fontSize:"15px" }}> The Nike Alr Max 200 SE offers undeniable appeal for <br/>the fashion-minded set. With an emphasis on <br/> cushioning for superior comfort with a foam midsole<br/> and cushy insole, flexibility, and durability, this cool <br/>sneaker boasts the performance features you expect<br/> from a premium shoe. Ultra-modern yet still<br/> reminiscent of the 1987 original, this lightweight pair<br/> will be in heavy rotation all season long. 
-<br/><br/>sThis item does not ship internationally. <br/></p>
+<p className="paragnikealt" style={{color: "black",fontSize:"18px" }}> The Nike Alr Max 200 SE offers undeniable appeal for <br/>the fashion-minded set. With an emphasis on <br/> cushioning for superior comfort with a foam midsole<br/> and cushy insole, flexibility, and durability, this cool <br/>sneaker boasts the performance features you expect<br/> from a premium shoe. Ultra-modern yet still<br/> reminiscent of the 1987 original, this lightweight pair<br/> will be in heavy rotation all season long. 
+<br/><br/>This item does not ship internationally. <br/></p>
 </div>
 
+<tr>
+  <td>
 <div className="card_text">
-<p style={{color: "black",fontSize:"16px" }}> SIZE and FIT <br/></p>
+<h2 className="nikeuPRODUCT" style={{color: "black",fontSize:"16px" }}> SIZE and FIT <br/></h2>
 </div>
+</td>
+</tr>
 
+<tr>
+  <td>
 <div className="card_text">
-<p style={{color: "black",fontSize:"16px" }}>  FABRIC<br/></p>
+<h2 className="nikeuPRODUCT" style={{color: "black",fontSize:"16px" }}>  FABRIC<br/></h2>
 </div>
+</td>
+</tr>
+
 </table>
 </div>
 
