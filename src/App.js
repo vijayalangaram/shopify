@@ -20,15 +20,13 @@ function App() {
         {/* <Shopifyscrppage/> */}
          {/* <Carbonpagesecond/>  */}
            {/* <Aluminipage/> */}
-           <Embededpopup/>
-
-
-         {/* <Reporthomepage/>        */}  
-         {/* <Shopifyscanpagesecon/> */}
-         {/* <Brandcandypaymentpage/> */}
-         {/* <Reportpagethanks/> */}
-         {/* <Reportpagethanks/> */}
+           {/* <Embededpopup/> */}
+           {/* <Shopifyscanpagesecon/> */}
+           {/* <Reporthomepage/>                  */}
+           {/* <Reportpagethanks/>     */}
          {/* <Reportpagereportdownload/> */}
+         <Brandcandypaymentpage/>        
+      
 
        
        {/* <div className="Reporttitle">

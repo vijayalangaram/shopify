@@ -7,13 +7,33 @@ class Reportpagereportdownload extends Component {
      return (                   
     <div className="App" >  
 
-     <div className="Reporttitle">
-         <h1> Report</h1>      
-         </div>       
-        
-         <div >
-         <h1>  </h1>         
-         </div>
+<table width="100%"  height = "150%"  align="center" style={{backgroundColor: '#3047EB' }}  >
+
+<tr>
+   <td>
+ <div className="Reporttitle">
+  <h1> Report </h1>      
+  </div>       
+  </td>
+
+
+  <td className="ReScan">
+ <div>    
+  <h1> <img src="" height="30" width="30"/> ReScan </h1>      
+  </div>       
+  </td>
+
+
+  <td className="Scannewstore">
+ <div>     
+  <h1> <img src="" height="30" width="30"/> Scan New Store </h1>      
+  </div>       
+  </td>
+
+ 
+ 
+</tr>  
+</table>
 
 <table className="Reportpagereportdownloadtab" width="70%" height = "10" border="1" bardercolor="black" align="center" >
 <tr>    
@@ -53,9 +73,28 @@ class Reportpagereportdownload extends Component {
 
 
 
+<table className="filterbrands" height="80" width="15%" bardercolor="red" align="left"> 
+<tr>
+<td>
+   <h3>FILTER BRANDS</h3>   
+<input type="checkbox"/>Adidas <br/>
+<input type="checkbox"/>Carbon38  <br/>
+<input type="checkbox"/>H and M  <br/>
+<input type="checkbox"/>Nike  <br/>
+<input type="checkbox"/>Superfly  <br/>
+<input type="checkbox"/>Ugmonk  <br/>
+<input type="checkbox"/>Uniqlo   <br/>
+<input type="checkbox"/>Zara   <br/>
+<h3>SORT BY</h3> 
+<input type="radio"/>MAtch % <br/>
+<input type="radio"/>Sales Volumn <br/>
+</td> 
+</tr>
+</table>
 
-<table height="80"  width="50%" bardercolor="white" align="center">
 
+
+<table className="yourstoretable" height="80"  width="40%" bardercolor="white" align="center">
 <tr> 
 <td>
 <div className="card_text">
@@ -235,6 +274,79 @@ class Reportpagereportdownload extends Component {
 </td> 
 </tr>
 
+
+<tr>    
+<td>
+<div className="card_text">
+<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
+<p>Your Store </p>
+</div>
+</td>
+
+<td>
+<div className="card_text">
+<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
+<p>Match Found </p>
+</div>
+</td>
+
+<td>
+<div className="card_text">
+<p>Matched on <br/> <u>Ugmonk.com</u> </p>
+</div>
+</td>
+
+<td>
+<div className="card_text">
+<p>83% </p>
+</div>
+</td>
+
+<td>
+   <div> 
+<button align="center">View Product</button>
+ </div>
+</td> 
+</tr>
+
+
+
+<tr>    
+<td>
+<div className="card_text">
+<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
+<p>Your Store </p>
+</div>
+</td>
+
+<td>
+<div className="card_text">
+<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
+<p>Match Found </p>
+</div>
+</td>
+
+<td>
+<div className="card_text">
+<p>Matched on <br/> <u>Ugmonk.com</u> </p>
+</div>
+</td>
+
+<td>
+<div className="card_text">
+<p>83% </p>
+</div>
+</td>
+
+<td>
+   <div> 
+<button align="center">View Product</button>
+ </div>
+</td> 
+</tr>
+
+
+
 <tr>    
 <td>
 <div className="card_text">
@@ -338,105 +450,10 @@ class Reportpagereportdownload extends Component {
  </div>
 </td> 
 </tr>
-
-
-<tr>    
-<td>
-<div className="card_text">
-<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
-<p>Your Store </p>
-</div>
-</td>
-
-<td>
-<div className="card_text">
-<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
-<p>Match Found </p>
-</div>
-</td>
-
-<td>
-<div className="card_text">
-<p>Matched on <br/> <u>Ugmonk.com</u> </p>
-</div>
-</td>
-
-<td>
-<div className="card_text">
-<p>83% </p>
-</div>
-</td>
-
-<td>
-   <div> 
-<button align="center">View Product</button>
- </div>
-</td> 
-</tr>
-
-<tr>    
-<td>
-<div className="card_text">
-<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
-<p>Your Store </p>
-</div>
-</td>
-
-<td>
-<div className="card_text">
-<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
-<p>Match Found </p>
-</div>
-</td>
-
-<td>
-<div className="card_text">
-<p>Matched on <br/> <u>Ugmonk.com</u> </p>
-</div>
-</td>
-
-<td>
-<div className="card_text">
-<p>83% </p>
-</div>
-</td>
-
-<td>
-   <div> 
-<button align="center">View Product</button>
- </div>
-</td> 
-</tr>
-
 
 </table>
 
 
-<table height="80" align="center" >
-<tr>  
-
-<td>
-<div className="card_text">
-<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
-</div>
-</td>
-
-<td>
-<div className="card_text">
-<p>Enter payment details to unlcok <br/> 2000+ images from your store </p>
-</div>
-</td>
-
-<td>
-   <div className="buttong"> 
-<button style={{height: "32px",width: "150px", left: "82px", color: "white", backgroundColor: "blue", borderColor: "blue"}}>Unlock All Results</button>
- </div>
-</td> 
-
-
-
-</tr>
-</table>
 
 
 <table height="80" align="center" >
@@ -481,11 +498,12 @@ class Reportpagereportdownload extends Component {
 
 
 <div>
-    <p align="center">Since we're not affiliated with Shopify,If your store still gets <br/>shut down you can contact Shopify Support </p>
+    <p align="center">Since we're not affiliated with Shopify,If your store still gets <br/>shut down you can contact <a href="" >Shopify Support</a>  </p>
 </div> 
 
 </div>  
   );
   }
 }
+
 export default Reportpagereportdownload;

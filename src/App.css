@@ -56,6 +56,39 @@ font-weight: bold;
   margin-left: -412px;
 }
 
+
+.BrandCandychecks{
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+margin-right: 392px;
+}
+
+.Intellectual{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  margin-right: 342px;
+}
+
+.youmaynot{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  margin-right: 110px;
+}
+
+.wearenotaff{
+  font-family: Inter;
+font-style: normal;
+margin-right: 171px;
+}
+
+.SCANNING{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+}
 .brncandico{  
 margin-right: -396px;
 margin-top: -139px;
@@ -80,19 +113,81 @@ margin-top: -139px;
 
 .Reportpagethankstab {
   background-color: limegreen;
+  color: aliceblue;
+  margin-top: -29px;
 }
 
 .Reportpagereportdownloadtab{
-  background-color: #eced20;
+  background-color: #FFD855;
+  margin-top: -29px;
 }
 
 .Reporttitle {
   text-align: 100px;
   color:white;
-  background:blue;
+  background: #3047EB;
   padding:1px;
-  font-size: 30px;  
-  padding-right: 700px;
+  font-size: 32px;  
+  padding-right: 632px;
+  font-family: Inter;
+  font-style: normal;
+  margin-right: -712px;
+  margin-left: 118px;
+}
+
+
+.ReScan {
+  margin-right: 80px;
+  margin-left: -58px;
+  color:white;
+  background: #3047EB;
+  /* padding:1px; */
+  font-size: 12px;  
+  /* padding-right: 700px;
+  font-family: Inter;
+  font-style: normal; */
+}
+
+.enterpayment{
+  margin-left: 26px;
+  font-family: Inter;
+font-style: normal;
+}
+.bottumspaymentdetails{
+  margin-right: 377px;
+    margin-top: 19px;
+}
+
+.unlcoresults{
+  margin-left: 34px;
+  font-family: Inter;
+font-style: normal;
+}
+
+.Scannewstore{
+  margin-right: 157px;
+   color:white;
+   background: #3047EB;
+   /* padding:1px; */
+   font-size:  12px;  
+   /* padding-right: 700px;
+   font-family: Inter;
+   font-style: normal; */
+}
+
+.filterbrands{
+  margin-left: 257px;
+}
+
+
+
+.yourstoretable{
+  margin-right: 364px;
+}
+
+.titileimagessc{
+  font-family: Inter;
+font-style: normal;
 }
 
 .cardtextcar{

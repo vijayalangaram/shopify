@@ -8,26 +8,45 @@ class Reporthomepage extends Component {
      return (        
              
     <div className="App" >  
+  
+   <table width="100%"  height = "150%"  align="center" style={{backgroundColor: '#3047EB' }}  >
 
+    <tr>
+       <td>
      <div className="Reporttitle">
-         <h1> Report </h1>      
-         </div>       
-        
-         <div >
-         <h1>  </h1>         
-         </div>
+      <h1> Report </h1>      
+      </div>       
+      </td>
 
+
+      <td className="ReScan">
+     <div>    
+      <h1> <img src="" height="30" width="30"/> ReScan </h1>      
+      </div>       
+      </td>
+
+
+      <td className="Scannewstore">
+     <div>     
+      <h1> <img src="" height="30" width="30"/> Scan New Store </h1>      
+      </div>       
+      </td>
+
+     
+     
+   </tr>  
+   </table>
 
 <table className="Imagesscanned" width="60%" height = "80" border="1"  bardercolor="black" align="center" >
 <tr>    
 <td>       
 <div>
-<h2 align="center">2000+<br/> <span>Images scanned</span> </h2> 
+<h2 className="titileimagessc" align="center">2000+<br/> <span>Images scanned</span> </h2> 
 </div>
 </td>
 <td>
 <div>
-<h2 align="center">183 <br/> Infringement Found</h2> 
+<h2 className="titileimagessc" align="center">183 <br/> Infringement Found</h2> 
 </div>
 </td>
 <td>
@@ -43,11 +62,26 @@ class Reporthomepage extends Component {
                 
          </div>
 
+<table className="filterbrands" height="80" width="15%" bardercolor="red" align="left"> 
+<tr>
+<td>
+   <h3>FILTER BRANDS</h3>   
+<input type="checkbox"/>Adidas <br/>
+<input type="checkbox"/>Carbon38  <br/>
+<input type="checkbox"/>H and M  <br/>
+<input type="checkbox"/>Nike  <br/>
+<input type="checkbox"/>Superfly  <br/>
+<input type="checkbox"/>Ugmonk  <br/>
+<input type="checkbox"/>Uniqlo   <br/>
+<input type="checkbox"/>Zara   <br/>
+<h3>SORT BY</h3> 
+<input type="radio"/>MAtch % <br/>
+<input type="radio"/>Sales Volumn <br/>
+</td> 
+</tr>
+</table>
 
-
-
-<table height="80"  width="50%" bardercolor="white" align="center">
-
+<table className="yourstoretable" height="80"  width="40%" bardercolor="white" align="center">
 <tr> 
 <td>
 <div className="card_text">
@@ -335,7 +369,7 @@ class Reporthomepage extends Component {
 </tr>
 
 
-<tr>    
+{/* <tr>    
 <td>
 <div className="card_text">
 <img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
@@ -402,34 +436,31 @@ class Reporthomepage extends Component {
 <button align="center">View Product</button>
  </div>
 </td> 
-</tr>
+</tr> */}
 
 </table>
 
 
-<table height="80" align="center" >
+<table className="bottumspaymentdetails"  height="80" align="center" >
 <tr>  
 
 <td>
 <div className="card_text">
-<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="55" width="45" />
+<img src="C:\Users\Corona\Desktop\sho\my-new-app\src\pics\viewico.png"  height="75" width="85" />
 </div>
 </td>
 
 <td>
 <div className="card_text">
-<p>Enter payment details to unlcok <br/> 2000+ images from your store </p>
+<h3 className="enterpayment">Enter payment details to unlcok<br/> 2000+  images from your store </h3>
 </div>
 </td>
 
 <td>
-   <div className="buttong"> 
-<button style={{height: "32px",width: "150px", left: "82px", color: "white", backgroundColor: "blue", borderColor: "blue"}}>Unlock All Results</button>
+  <div className="buttong"> 
+<button className="unlcoresults" style={{height: "37px",width: "150px", left: "82px", color: "white", backgroundColor: "blue", borderColor: "blue"}}>Unlock All Results</button>
  </div>
 </td> 
-
-
-
 </tr>
 </table>
 
@@ -476,7 +507,7 @@ class Reporthomepage extends Component {
 
 
 <div>
-    <p align="center">Since we're not affiliated with Shopify,If your store still gets <br/>shut down you can contact Shopify Support </p>
+    <p align="center">Since we're not affiliated with Shopify,If your store still gets <br/>shut down you can contact <a href="" >Shopify Support</a>  </p>
 </div> 
 
 </div>  
