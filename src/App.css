@@ -109,6 +109,14 @@ margin-top: -139px;
 .Embeddedapp{
   font-family: halis grotesque bold;
   font-style: normal;
+  margin-left: 36px;
+}
+
+.toerseurcust {
+  margin-left: -101px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .Reportpagethankstab {
@@ -120,6 +128,26 @@ margin-top: -139px;
 .Reportpagereportdownloadtab{
   background-color: #FFD855;
   margin-top: -29px;
+}
+
+
+.brndcanimge{
+  margin-right: -165px;
+}
+
+.tesarepaymen{
+  width: "242px"; 
+  height:"33px";
+}
+
+
+.bottomtableofpopoup{
+  margin-top: -613px;
+}
+
+
+.buttoinstallbrndca{
+  margin-left: 527px
 }
 
 .Reporttitle {

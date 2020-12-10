@@ -11,24 +11,32 @@ import Brandcandypaymentpage from './Brandcandypaymentpage';
 import Reportpagethanks from './Reportpagethanks';  
 import Reporthomepage from './Reporthomepage';  
 import Reportpagereportdownload from './Reportpagereportdownload';  
-
+import Shopifyscrppagepopup from './Shopifyscrppagepopup';  
 
 function App() {
   return (    
     <div className="App" >     
 
         {/* <Shopifyscrppage/> */}
+         {/* <Shopifyscrppagepopup/> */}
+        <Shopifyscanpagesecon/>
+
+        {/* <Embededpopup/> */}
          {/* <Carbonpagesecond/>  */}
            {/* <Aluminipage/> */}
-           {/* <Embededpopup/> */}
-           {/* <Shopifyscanpagesecon/> */}
+        
+        
            {/* <Reporthomepage/>                  */}
            {/* <Reportpagethanks/>     */}
          {/* <Reportpagereportdownload/> */}
-         <Brandcandypaymentpage/>        
+         {/* <Brandcandypaymentpage/>         */}
       
 
        
+
+
+
+
        {/* <div className="Reporttitle">
          <h1> Report </h1>      
          </div>       

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Reportpage from './Reportpage';
 import './App.css';
 import viewico from './viewico.png';
+import Embededpopup from './Embededpopup';
 
 class Shopifyscrppage extends Component {
   render() {
@@ -11,7 +12,8 @@ class Shopifyscrppage extends Component {
 
     <div style={{backgroundColor: '#3047eb' }}>   
 <div className= "BrandCandy">
-<h1 style={{ color: "white",align:"left",fontSize:"44px"} }>  <img src="./viewico.png"/> BrandCandy </h1>         
+<h1 style={{ color: "white",align:"left",fontSize:"44px"} }>  <img src="/images/finger.png"/> BrandCandy </h1>    
+{/* <img src="/images/finger.png" height="63px" width="52px" />      */}
 </div>
 
 
@@ -23,7 +25,10 @@ class Shopifyscrppage extends Component {
 
 <div className="contact_submit2" >
 <input className="storeusrl" type="search" style={{height: "63px", width: "520px", fontSize:"25px", align:"center"}} placeholder= "    Enter your store url"  />              
-<button className="Scanbutton" style={{height: "63px",width:"180px", color: "white",fontSize:"25px", backgroundColor: "#243cbc" }} >Scan</button>            
+<button  onclick="window.location.href='/Embededpopup.js'" className="Scanbutton" style={{height: "63px",width:"180px", color: "white",fontSize:"25px", backgroundColor: "#243cbc" }} >Scan</button>            
+
+<a href="/Embededpopup.js" target="_top" className="Scanbutton" style={{height: "63px",width:"180px", color: "white",fontSize:"25px", backgroundColor: "#243cbc" }} >Visit</a>
+{/* <img src="/images/fingre.png" height="60" width="50" /> */}
 </div>   
 
 
@@ -59,6 +64,8 @@ class Shopifyscrppage extends Component {
 </tr>
 
 </table>
+
+
 </div>
 </div> 
 
