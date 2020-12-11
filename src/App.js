@@ -18,14 +18,13 @@ function App() {
     <div className="App" >     
 
         {/* <Shopifyscrppage/> */}
-         {/* <Shopifyscrppagepopup/> */}
-        <Shopifyscanpagesecon/>
+         <Shopifyscrppagepopup/>
+        {/* <Shopifyscanpagesecon/> */}
 
         {/* <Embededpopup/> */}
          {/* <Carbonpagesecond/>  */}
            {/* <Aluminipage/> */}
-        
-        
+                
            {/* <Reporthomepage/>                  */}
            {/* <Reportpagethanks/>     */}
          {/* <Reportpagereportdownload/> */}

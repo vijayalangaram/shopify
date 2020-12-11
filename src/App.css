@@ -101,21 +101,21 @@ margin-top: -139px;
 
 
 .viewdetaih{
-  color: rgb(12, 16, 240);
+  color:#0CA4DF;
   font-size: 24px;
-  margin-left: 446px;
+  margin-left: 85px;
 }
 
 .Embeddedapp{
   font-family: halis grotesque bold;
   font-style: normal;
-  margin-left: 36px;
+  margin-left: 30px;
 }
 
 .toerseurcust {
   margin-left: -101px;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 19px;
   font-style: normal;
 }
 
@@ -341,20 +341,16 @@ font-style: normal;
 
 .BrandCandy 
 { 
-  margin-right: 1000px; 
-  font-size: 22px;
+  margin-right: 930px;
+  margin-top: -32px;
   font-family: Brandon Grotesque;
-}
+}  
 
 .checkstorehealth {
-/* position: absolute;
-left: 12.42%;
-right: 12.34%;
-top: 20.16%;
-bottom: 70.88%; */
+
 font-family: Inter;
 font-style: normal;
-/* font-weight: 800; */
+margin-top: 91px;
 font-size: 70px;
 line-height: 80px;
 }
@@ -362,6 +358,7 @@ line-height: 80px;
 .counterfeitsandIPinf {
   font-family: Inter;
   font-style: normal;
+  margin-top: -27px;
 }
 
 
