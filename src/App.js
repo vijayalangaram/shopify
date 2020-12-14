@@ -16,9 +16,9 @@ import Shopifyscrppagepopup from './Shopifyscrppagepopup';
 function App() {
   return (    
     <div className="App" >     
-
-        {/* <Shopifyscrppage/> */}
-         <Shopifyscrppagepopup/>
+         
+        <Shopifyscrppage/>
+         {/* <Shopifyscrppagepopup/> */}
         {/* <Shopifyscanpagesecon/> */}
 
         {/* <Embededpopup/> */}
