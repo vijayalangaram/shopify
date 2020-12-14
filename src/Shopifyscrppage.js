@@ -16,12 +16,13 @@ class Shopifyscrppage extends Component {
 
       <div className="asdsadApp" >
 
-        <div style={{ backgroundColor: '#3047eb', height: '953px' }}>
-          <Container>
+        <div style={{ backgroundColor: '#3047eb', height: '880px' }}>
+          <Container style={{ width: '95%',maxWidth:'95%' }}>
             <Row>
               <Colxx xxs="6">
-                <div className="BrandCandy">
-                  <h1 style={{ color: "white", align: "left", fontSize: "44px" }}>  <img src="assets/img/fingerlogo.png" /> BrandCandy </h1>
+                <div className="BrandCandy" >
+                <img src="assets/img/fingerlogo.png" width="40" style={{float:'left'}} />
+                  <h1 style={{ color: "white", align: "left", fontSize: "44px",paddingLeft:"50px" }}>   BrandCandy </h1>
                 </div>
               </Colxx>
               <Colxx xxs="6"></Colxx>
@@ -39,7 +40,7 @@ class Shopifyscrppage extends Component {
             <form>
 
               <input className="storeusrl" type="url" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }} placeholder="    Enter your store url" required="required"></input>
-              <button onclick="window.location.href='./Embededpopup.js'" className="Scanbutton" style={{ height: "63px", width: "180px", color: "white", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>
+              <button onclick="window.location.href='./Embededpopup.js'" className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>
   
             </form>
 
@@ -54,7 +55,7 @@ class Shopifyscrppage extends Component {
                 <td>
                   <div className="card_text">
                     <img src="assets/img/scanicon.png" />
-                    <p style={{ color: "white", fontSize: "22px" }}> Scan <br /> Your store</p>
+                    <p style={{ color: "white", fontSize: "22px" }}> Scan <br/> Your store</p>
                   </div>
                 </td>
 

@@ -2,7 +2,6 @@ import './App.css';
 import Shopifyscrppage from './Shopifyscrppage';
 import Carbonpagesecond from './Carbonpagesecond';
 import Aluminipage from './Aluminipage';
-import Embededpopup from './Embededpopup';
 import Shopifyscanpagesecon from './Shopifyscanpagesecon';
 import Brandcandypaymentpage from './Brandcandypaymentpage';
 import Reportpagethanks from './Reportpagethanks';  
@@ -21,16 +20,16 @@ function App() {
         {/* <Shopifyscrppage/> */}
         {/* <ShopifyscrppageBlackicon/> */}
          {/* <Shopifyscrppagepopup/> */}
-        <Shopifyscanpagesecon/>
+        {/* <Shopifyscanpagesecon/> */}
+         <Reporthomepage/>
 
-
-        {/* <Embededpopup/> */}
+         {/* <Reportpagethanks/>  */}
+         {/* <Reportpagereportdownload/> */}
+         {/* <Brandcandypaymentpage/>    */}
          {/* <Carbonpagesecond/>  */}
            {/* <Aluminipage/>                 */}
-           {/* <Reporthomepage/> */}
-           {/* <Reportpagethanks/>  */}
-         {/* <Reportpagereportdownload/> */}
-         {/* <Brandcandypaymentpage/>  */}           
+        
+                 
     </div>
   );
 }

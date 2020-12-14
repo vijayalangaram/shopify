@@ -45,11 +45,11 @@ font-weight: bold;
   margin-left:180px;
 }
 
-.EmbeddedApp{
+/* .EmbeddedApp{
   margin-right: 499px;
   font-family: Source Sans Pro;
   font-style: normal;
-}
+} */
 
 
 .myshopico{
@@ -100,17 +100,7 @@ margin-top: -139px;
 }
 
 
-.viewdetaih{
-  color:#0CA4DF;
-  font-size: 20px;
-  margin-left: 400px;
-}
 
-.viewdetaihsecond{
-  color:#0CA4DF;
-  font-size: 20px;
-  margin-left: -73px
-}
 
 .Embeddedapp{
   font-family: halis grotesque bold;
@@ -118,12 +108,6 @@ margin-top: -139px;
   margin-left: 30px;
 }
 
-.toerseurcust {
-  margin-left: -101px;
-  font-family: Inter;
-  font-size: 19px;
-  font-style: normal;
-}
 
 .Reportpagethankstab {
   background-color: limegreen;
@@ -152,9 +136,7 @@ margin-top: -139px;
 }
 
 
-.buttoinstallbrndca{
-  margin-left: 646px;
-}
+
 
 .Reporttitle {
   text-align: 100px;
@@ -170,54 +152,47 @@ margin-top: -139px;
 }
 
 
-.ReScan {
+/* .ReScan {
   margin-right: 80px;
   margin-left: -58px;
   color:white;
   background: #3047EB;
   /* padding:1px; */
-  font-size: 12px;  
+  /* font-size: 12px;   */
   /* padding-right: 700px;
   font-family: Inter;
   font-style: normal; */
-}
+/* } */ */
 
-.enterpayment{
-  margin-left: 26px;
-  font-family: Inter;
-font-style: normal;
-}
-.bottumspaymentdetails{
+/* .bottumspaymentdetails{
   margin-right: 377px;
     margin-top: 19px;
-}
+} */
 
-.unlcoresults{
+/* .unlcoresults{
   margin-left: 34px;
   font-family: Inter;
 font-style: normal;
-}
+} */
 
-.Scannewstore{
+/* .Scannewstore{
   margin-right: 157px;
    color:white;
-   background: #3047EB;
+   background: #3047EB; */
    /* padding:1px; */
-   font-size:  12px;  
+   /* font-size:  12px;   */
    /* padding-right: 700px;
    font-family: Inter;
    font-style: normal; */
-}
+/* } */
 
-.filterbrands{
+/* .filterbrands{
   margin-left: 257px;
-}
+} */
 
-
-
-.yourstoretable{
+/* .yourstoretable{
   margin-right: 364px;
-}
+} */
 
 .titileimagessc{
   font-family: Inter;
@@ -330,9 +305,9 @@ font-style: normal;
   font-size: 20px;   
 } */
 
-.buttong{
+/* .buttong{
  margin-left: "69px" ;
-}
+} */
 
 
 
@@ -345,12 +320,12 @@ font-style: normal;
   color: #61dafb;
 }
 
-.BrandCandy 
+/* .BrandCandy 
 { 
   margin-right: 1250px;
   margin-top: -32px;
   font-family: Brandon Grotesque;
-}  
+}   */
 
 .imgscannpopop{
   margin-bottom: -19px;
@@ -358,14 +333,14 @@ margin-left: 17px;
 
 }
 
-.checkstorehealth {
+/* .checkstorehealth {
 
 font-family: Inter;
 font-style: normal;
 margin-top: 91px;
 font-size: 70px;
 line-height: 80px;
-}
+} */
 
 .counterfeitsandIPinf {
   font-family: Inter;
