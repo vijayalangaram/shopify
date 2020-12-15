@@ -43,7 +43,7 @@ class Reporthomepage extends Component {
                </tr>
             </table>
 
-            <table className="Imagesscanned" width="60%" height="90" border="1" bardercolor="grey" color="grey" align="center" >
+            <table className="Imagesscanned" width="65%" height="90" border="1" bardercolor="grey" color="grey" align="center" >
                <tr>
 
                   <td>
@@ -62,12 +62,12 @@ class Reporthomepage extends Component {
                   <td>
                      <tr>
                         <div>
-                           <h2 className="onehuneithree" align="center"> 183 </h2>
+                           <h2 className="onehuneithree" align="center"> <b> 183 </b></h2>
                         </div>
                      </tr>
                      <tr>
                         <div>
-                           <h2 className="infigfound" align="center"> Infringement Found</h2>
+                           <h2 className="infigfound" align="center"><b>  Infringement Found</b></h2>
                         </div>
                      </tr>
                   </td>
@@ -105,16 +105,16 @@ class Reporthomepage extends Component {
                </tr>
             </table>
 
-            <table className="yourstoretable" height="80" color="grey" width="45%" bardercolor="white" align="center">
+            <table className="yourstoretable" height="50%" color="grey" width="50%" bardercolor="white" align="center">
                <tr>
                   <td>
                      <div className="card_text">
-                        <img src="assets/img/shoe1.png" />
+                        <img src="assets/img/shoe1.png"/>
                         <p style={{ color: "grey", fontSize: "18px" }}>Your Store </p>
                      </div>
                   </td>
 
-                  <td style={{ background: "black" }}>
+                  <td style={{ background: "black"}}>
                      <div className="card_text">
                         <img src="assets/img/shoe1.png" />
                         <p style={{ color: "white", fontSize: "18px" }}>Match Found </p>
@@ -139,7 +139,7 @@ class Reporthomepage extends Component {
                      </div>
                   </td>
                </tr>
-               <br />
+            
 
                <tr>
                   <td>
@@ -173,9 +173,7 @@ class Reporthomepage extends Component {
                         <button align="center" style={{ height: "42px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
                      </div>
                   </td>
-
-
-               </tr>    <br />
+               </tr>   
 
 
                <tr>
@@ -212,9 +210,7 @@ class Reporthomepage extends Component {
                   </td>
 
 
-               </tr>    <br />
-
-
+               </tr>  
                <tr>
                   <td>
                      <div className="card_text">
@@ -249,8 +245,7 @@ class Reporthomepage extends Component {
                   </td>
 
 
-               </tr>    <br />
-
+               </tr>  
                <tr>
                   <td>
                      <div className="card_text">
@@ -285,15 +280,14 @@ class Reporthomepage extends Component {
                   </td>
 
 
-               </tr>    <br />
-
+               </tr>   
 
             </table>
 
 
             <table className="bottumspaymentdetails" height="80" align="center">
                <tr>
-                  <td style={{ background: "#3047EB", width: "110px" }}>
+                  <td style={{ background: "#3047EB", width: "120px" }}>
                      <div className="card_text">
                         <img src="assets/img/miniloc.png" />
                      </div>
