@@ -1,54 +1,25 @@
 import React, { Component } from "react";
-
+import Reportpage from './Reportpage';
 import './App.css';
-import './index.js';
-import history from './history';
-
-import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom';
-import Reporthomepage from './Reporthomepage.js';  
 import Shopifyscrppagepopup from './Shopifyscrppagepopup';
-
-// import Carbonpagesecond from './Carbonpagesecond';
-// import Aluminipage from './Aluminipage';
-// import Embededpopup from './Embededpopup';
-// import Shopifyscanpagesecon from './Shopifyscanpagesecon';
-// import Brandcandypaymentpage from './Brandcandypaymentpage';
-// import Reportpagethanks from './Reportpagethanks';
-// import Reportpagereportdownload from './Reportpagereportdownload';
-
-// import ShopifyscrppageBlackicon from './ShopifyscrppageBlackicon';
-
 import { Container, Row, Col } from 'reactstrap';
 import { Colxx, Separator } from './components/CustomBootstrap';
 
-class Shopifyscrppage extends Component {
-
-    // <Router>
-    // <Route exact path="./Shopifyscrppagepopup" component={Shopifyscrppagepopup} />
-    // </Router>
-
-
-  // onSubmit = () => {
-  //    this.props.history.push('/reporthomepage/');
-  //  }
-
-  //  onSubmit = () => {   
-  //       return  <Redirect  to="/reporthomepage" />   
-  //  }
+class ShopifyscrppageBlackicon extends Component {
+  render() {
 
    
 
-  render() {  
     return (
+
       <div className="asdsadApp" >
 
-        <div style={{ backgroundColor: '#3047eb', height: '880px' }}>
-          <Container style={{ width: '95%', maxWidth: '95%' }}>
+        <div style={{ backgroundColor: '#3047eb', height: '953px' }}>
+          <Container>
             <Row>
               <Colxx xxs="6">
-                <div className="BrandCandy" >
-                  <img src="assets/img/fingerlogo.png" width="40" style={{ float: 'left' }} />
-                  <h1 style={{ color: "white", align: "left", fontSize: "44px", paddingLeft: "50px" }}>   BrandCandy </h1>
+                <div className="BrandCandy">
+                  <h1 style={{ color: "white", align: "left", fontSize: "44px" }}>  <img src="assets/img/fingerlogo.png" /> BrandCandy </h1>
                 </div>
               </Colxx>
               <Colxx xxs="6"></Colxx>
@@ -61,18 +32,19 @@ class Shopifyscrppage extends Component {
             <h1 className="checkstorehealth" style={{ color: "white", fontSize: "78px" }} >Check your store's health</h1>
             <p className="counterfeitsandIPinf" style={{ color: "white", fontSize: "30px", left: "20.87%", right: "20.79%" }}> Scan your store for counterfeits and IP infringement.   </p>
 
-            {/* <Link to="./Shopifyscrppagepopup" className="btn btn-primary">hello</Link> */}
+            {/* <Link to="./ShopifyscrppageBlackiconpopup" className="btn btn-primary">hello</Link> */}
 
             <form>
 
               <input className="storeusrl" type="url" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }} placeholder="    Enter your store url" required="required"></input>
-              <button onClick= {() => history.push('/Reporthomepage')} className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>
-             
+              <button onclick="window.location.href='./Embededpopup.js'" className="Scanbutton" style={{ height: "63px", width: "180px", color: "white", fontSize: "34px", backgroundColor: "black" }} >Scan</button>
+  
             </form>
 
             <div className="Howitzworks">
               <h2 style={{ color: "white", fontSize: "35px" }}> How it works ? </h2>
             </div>
+
 
 
             <table width="52%" height="240" align="center" style={{ backgroundColor: '#3047eb' }}  >
@@ -113,4 +85,4 @@ class Shopifyscrppage extends Component {
   }
 }
 
-export default Shopifyscrppage;
+export default ShopifyscrppageBlackicon;
