@@ -18,23 +18,23 @@ class Reporthomepage extends Component {
 
          <div className="App" >
 
-            <table className="titilereporthomepage" width="100%" height="190" align="center" style={{ backgroundColor: '#3047EB' }}  >
+            <table className="titilereporthomepage" width="100%" height="170" align="center" style={{ backgroundColor: '#3047EB' }}  >
 
                <tr>
 
                   <td>
                      <div className="Reporttitle">
-                        <h1 style={{ fontSize: "80px" }} > Report </h1>
+                        <h1 style={{ fontSize: "75px" }} > Report </h1>
                      </div>
                   </td>
-                  <td className="ReScan">
-                     <div>
-                        <h1 style={{ fontSize: "27px" }}> <img src="assets/img/scanmini.png" height="30" width="30" /> ReScan </h1>
+                  <td>
+                     <div className="ReScan">
+                        <h1 style={{ fontSize: "22px" }}> <img src="assets/img/scanmini.png" height="30" width="30" /> ReScan </h1>
                      </div>
                   </td>
-                  <td className="Scannewstore">
-                     <div>
-                        <h1 style={{ fontSize: "27px" }}> <img src="assets/img/storemini.png" height="30" width="30" /> Scan New Store </h1>
+                  <td >
+                     <div className="Scannewstore">
+                        <h1 style={{ fontSize: "22px" }}> <img src="assets/img/storemini.png" height="30" width="30" /> Scan New Store </h1>
                      </div>
                   </td>
 
@@ -43,21 +43,39 @@ class Reporthomepage extends Component {
                </tr>
             </table>
 
-            <table className="Imagesscanned" width="60%" height="80" border="1" bardercolor="grey" color="grey" align="center" >
+            <table className="Imagesscanned" width="60%" height="90" border="1" bardercolor="grey" color="grey" align="center" >
                <tr>
+
                   <td>
-                     <div>
-                        <h2 className="titileimagessc" align="center">2000+<br /> <span>Images scanned</span> </h2>
-                     </div>
+                     <tr>
+                        <div>
+                           <h2 className="titileimagessc" align="center" > <b> 2000 +</b> </h2>
+                        </div>
+                     </tr>
+                     <tr>
+                        <div>
+                           <h2 className="imagescs" align="center"> <b> Images scanned </b> </h2>
+                        </div>
+                     </tr>
                   </td>
+
                   <td>
-                     <div>
-                        <h2 className="titileimagessc" align="center">183 <br /> Infringement Found</h2>
-                     </div>
+                     <tr>
+                        <div>
+                           <h2 className="onehuneithree" align="center"> 183 </h2>
+                        </div>
+                     </tr>
+                     <tr>
+                        <div>
+                           <h2 className="infigfound" align="center"> Infringement Found</h2>
+                        </div>
+                     </tr>
                   </td>
+
+
                   <td>
                      <div>
-                        <button style={{ height: "32px", width: "150px", color: "blue", backgroundColor: "white", borderColor: "blue" }} >Download Report</button>
+                        <button style={{ height: "34px", width: "160px", color: "blue", backgroundColor: "white", borderColor: "blue" }} >Download Report</button>
                      </div>
                   </td>
                </tr>
@@ -71,17 +89,17 @@ class Reporthomepage extends Component {
             <table className="filterbrands" height="80" width="15%" bardercolor="red" align="left">
                <tr>
                   <td className="checkboxes">
-                     <h5>FILTER BRANDS</h5>
-                     <input type="checkbox" /> Adidas <br />
-                     <input type="checkbox" /> Carbon38 <br />
+                     <h5><b>FILTER BRANDS</b></h5>
+                     <input type="checkbox" checked /> Adidas <br />
+                     <input type="checkbox" checked /> Carbon38 <br />
                      <input type="checkbox" /> H and M <br />
-                     <input type="checkbox" /> Nike  <br />
+                     <input type="checkbox" checked/> Nike  <br />
                      <input type="checkbox" /> Superfly <br />
-                     <input type="checkbox" /> Ugmonk <br />
+                     <input type="checkbox" checked/> Ugmonk <br />
                      <input type="checkbox" /> Uniqlo <br />
-                     <input type="checkbox" /> Zara <br /> <br />
-                     <h6>SORT BY</h6>
-                     <input type="radio" /> Match % <br />
+                     <input type="checkbox" checked/> Zara <br /> <br />
+                     <h6><b>SORT BY</b></h6>
+                     <input type="radio" checked/> Match % <br />
                      <input type="radio" /> Sales Volumn <br />
                   </td>
                </tr>
@@ -105,19 +123,19 @@ class Reporthomepage extends Component {
 
                   <td >
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> Matched on <br /> <a href=""> <u> Carbon38.com ↗</u> </a> </p>
+                        <p style={{ fontSize: "16px", fontStyle : "bold" }}> <b> Matched on ?</b> <br /> <a href=""> <u><b> Carbon38.com ↗</b></u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px" }}>99% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle : "bold" }}>99% </p>
                      </div>
                   </td>
 
                   <td>
                      <div>
-                        <button align="center" style={{ height: "50px", width: "131px", color: "white", background: "black", fontSize: "16px" }}>View Product</button>
+                        <button align="center" style={{ height: "42px", width: "131px", color: "white", background: "black", fontSize: "16px" }}>View Product</button>
                      </div>
                   </td>
                </tr>
@@ -140,19 +158,19 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> Matched on <br /> <a href=""> <u> H & M.com↗</u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /> <a href=""> <u><b> H & M.com↗</b> </u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px" }}>98% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px" , fontStyle : "bold" }}>98% </p>
                      </div>
                   </td>
 
                   <td>
                      <div>
-                        <button align="center" style={{ height: "50px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
+                        <button align="center" style={{ height: "42px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
                      </div>
                   </td>
 
@@ -177,19 +195,19 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> Matched on <br /><a href=""> <u> Nike.com↗</u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /><a href=""> <u><b> Nike.com↗</b></u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px" }}>95% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle : "bold" }}>95% </p>
                      </div>
                   </td>
 
                   <td>
                      <div>
-                        <button align="center" style={{ height: "50px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
+                        <button align="center" style={{ height: "42px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
                      </div>
                   </td>
 
@@ -214,7 +232,7 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> Matched on <br /> <a href=""> <u> Uniqlo↗</u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /> <a href=""> <u><b> Uniqlo.com↗</b></u> </a> </p>
                      </div>
                   </td>
 
@@ -226,7 +244,7 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div>
-                        <button align="center" style={{ height: "50px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
+                        <button align="center" style={{ height: "42px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
                      </div>
                   </td>
 
@@ -250,7 +268,7 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> Matched on <br /> <a href=""> <u> Ugmonk↗</u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /> <a href=""> <u> <b>Ugmonk.com↗</b></u> </a> </p>
                      </div>
                   </td>
 
@@ -262,7 +280,7 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div>
-                        <button align="center" style={{ height: "50px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
+                        <button align="center" style={{ height: "42px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
                      </div>
                   </td>
 
@@ -275,7 +293,7 @@ class Reporthomepage extends Component {
 
             <table className="bottumspaymentdetails" height="80" align="center">
                <tr>
-                  <td style={{ background: "#3047EB", width: "90px" }}>
+                  <td style={{ background: "#3047EB", width: "110px" }}>
                      <div className="card_text">
                         <img src="assets/img/miniloc.png" />
                      </div>
@@ -283,7 +301,7 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{fontSize: "20px" }} >Enter payment details to unlcok   <br /> <b>2000+  images from your store </b> </p>
+                        <p style={{ fontSize: "20px" }} >  Enter payment details to unlcok   <br /> <b>2000+  images from your store </b> </p>
                      </div>
                   </td>
 
@@ -349,7 +367,7 @@ class Reporthomepage extends Component {
 
 
             <div className="sincewes">
-               <p align="center" style={{ fontSize: "21px" }} > <b>Since we're not affiliated with Shopify,If your store still gets <br />shut down you can contact <a href="" >Shopify Support</a> </b> </p>
+               <p align="center" style={{ fontSize: "17px" }} > <b>Since we're not affiliated with Shopify,If your store still gets <br />shut down you can contact <a href="" >Shopify Support</a> </b> </p>
             </div>
 
 

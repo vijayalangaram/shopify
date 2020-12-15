@@ -24,14 +24,11 @@ function App() {
          {/* <Shopifyscrppagepopup/> */}
         {/* <Shopifyscanpagesecon/> */}
          {/* <Reporthomepage/> */}
-
          {/* <Reportpagethanks/>  */}
          {/* <Reportpagereportdownload/> */}
          {/* <Brandcandypaymentpage/>    */}
          {/* <Carbonpagesecond/>  */}
-           {/* <Aluminipage/>                 */}
-        
-                 
+           {/* <Aluminipage/>*/}
     </div>
   );
 }
