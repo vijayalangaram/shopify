@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import Reportpage from './Reportpage';
 import './App.css';
-import viewico from './viewico.png';
-import Embededpopup from './Embededpopup';
+import './index.js';
+import history from './history';
+import Reporthomepage from './Reporthomepage';  
+import Shopifyscanpagesecon from './Shopifyscanpagesecon';  
+
 
 class Shopifyscrppagepopup extends Component {
   render() {
@@ -10,41 +12,31 @@ class Shopifyscrppagepopup extends Component {
 
     <div className="asdsadApp" >  
 
-    <div className="popupscsa" style={{backgroundColor: '#3047eb',height: '1100px' }}>   
+    <div className="popupscsa" style={{backgroundColor: '#3047eb',height: '1000px' }}>   
     
-<div className= "BrandCandy">
-  <br/>
-  <br/>
-  <h1 style={{ color: "white", align: "left", fontSize: "44px" }}>  <img src="assets/img/fingerlogo.png" /> BrandCandy </h1>
-<br/>
-<br/>
+<div className= "BrandCandypopup">
+  <br/><br/>
+  <h1 style={{ color: "#9ea6b0", align: "left", fontSize: "44px" }}>  <img src="assets/img/fingerlogo.png" /> BrandCandy </h1>
 </div>
 
 
-<table  width="55%"  height = "40"  align="center" color="white"  border="0"  style={{backgroundColor: 'white'}}  >
+<table className= "tableofpopupbrndcandy"  width="55%"  height = "40"  align="center" color="white"  border="1"  style={{backgroundColor: 'white'}}  >
 <tr>
 <td>
-<div>
-<p className="EmbeddedApp" style={{color: "black", align:"left",fontSize:"24px" }}>You are about to install Embedded App </p>
-
-{/* <h3 className="middleicon"><img src="./viewico.png" height="85" width="155"/> </h3> */}
-{/* <img src="./viewico.png" height="85" width="155"/> */}
-
+<div>  
+<p className="EmbeddedApp" style={{color: "black", align:"left",fontSize:"22px" }}><b>You are about to install Embedded App </b></p>
 <img src="assets/img/onetoanothersec.png" height="142" width="800"/>
-
 </div>
 </td> 
 </tr>
-<br/>
-<br/>
 </table>
 
 
-<table border="0" width="60%"  height = "40" cellspacing="0" cellpadding="0" align="center" color="white"  style={{backgroundColor: 'white'}}  >
+<table border="0" width="59.8%"  height = "40" cellspacing="0" cellpadding="0" align="center" color="white"  style={{backgroundColor: 'white'}}  >
 <tr>
   <td>
- <p className="Embeddedapp" align="left" style={{}}>Embedded App will be able to:</p>
- <p className="Embeddedapp" align="left" style={{}}>View Shopify account data</p> 
+ <p className="Embeddedapp" align="left" style={{fontSize:"22px"}}><b>Embedded App will be able to:</b></p>
+ <p className="Embeddedapp" align="left" style={{fontSize:"22px"}}><b>View Shopify account data</b></p> 
  </td>
  <td>
  <a className="viewdetaih" href="">View details</a> 
@@ -53,11 +45,10 @@ class Shopifyscrppagepopup extends Component {
 </table>
 
 
-
 <table width="60%" cellspacing="0" cellpadding="0"  height = "40"  align="center" color="white"  border="0"  style={{backgroundColor: 'white'}}  >
 <tr>
 <td>
- <p className="Embeddedapp" align="left" style={{}}>Manage orders </p> 
+ <p className="Embeddedapp" align="left"  style={{fontSize:"22px"}}><b>Manage orders</b></p> 
  </td> 
  <td>
  <a className="viewdetaihsecond" href="" >View details</a> 
@@ -80,11 +71,12 @@ class Shopifyscrppagepopup extends Component {
 
 <table  width="60%"  height = "55"  align="center" color="white"   border="0"  style={{backgroundColor: 'white'}}  >
 <tr>
-<td>  
+<td>
+<br/>  
 <button style={{height: "40px",width: "120px", color: "black",  fontSize:"15px", backgroundColor: "white" }} >CANCEL</button>            
 </td>
 <td>
-<button className="buttoinstallbrndca" style={{height: "50px",width: "200px", color: "#9ea6b0", backgroundColor: "#3047eb", fontSize:"18px" }} > <blink>Install BrandCandy</blink></button>            
+<button onClick= {() => history.push('/Shopifyscanpagesecon')} className="buttoinstallbrndca" style={{height: "50px",width: "200px", color: "grey", backgroundColor: "#3047eb", fontSize:"18px" }} > Install BrandCandy</button>            
 </td>
 </tr>
 <br/>

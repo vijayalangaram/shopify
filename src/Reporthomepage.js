@@ -9,7 +9,10 @@ import Reportpagethanks from './Reportpagethanks';
 import Reportpagereportdownload from './Reportpagereportdownload';
 import Shopifyscrppagepopup from './Shopifyscrppagepopup';
 import ShopifyscrppageBlackicon from './ShopifyscrppageBlackicon';
-// import './App.css';
+
+import './App.css';
+import './index.js';
+import history from './history';
 
 
 class Reporthomepage extends Component {
@@ -37,8 +40,6 @@ class Reporthomepage extends Component {
                         <h1 style={{ fontSize: "22px" }}> <img src="assets/img/storemini.png" height="30" width="30" /> Scan New Store </h1>
                      </div>
                   </td>
-
-
 
                </tr>
             </table>

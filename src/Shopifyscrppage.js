@@ -1,43 +1,14 @@
 import React, { Component } from "react";
-
 import './App.css';
 import './index.js';
 import history from './history';
-
-import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom';
-import Reporthomepage from './Reporthomepage.js';  
 import Shopifyscrppagepopup from './Shopifyscrppagepopup';
-
-// import Carbonpagesecond from './Carbonpagesecond';
-// import Aluminipage from './Aluminipage';
-// import Embededpopup from './Embededpopup';
-// import Shopifyscanpagesecon from './Shopifyscanpagesecon';
-// import Brandcandypaymentpage from './Brandcandypaymentpage';
-// import Reportpagethanks from './Reportpagethanks';
-// import Reportpagereportdownload from './Reportpagereportdownload';
-
-// import ShopifyscrppageBlackicon from './ShopifyscrppageBlackicon';
-
+import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Colxx, Separator } from './components/CustomBootstrap';
 
+
 class Shopifyscrppage extends Component {
-
-    // <Router>
-    // <Route exact path="./Shopifyscrppagepopup" component={Shopifyscrppagepopup} />
-    // </Router>
-
-
-  // onSubmit = () => {
-  //    this.props.history.push('/reporthomepage/');
-  //  }
-
-  //  onSubmit = () => {   
-  //       return  <Redirect  to="/reporthomepage" />   
-  //  }
-
-   
-
   render() {  
     return (
       <div className="asdsadApp" >
@@ -60,13 +31,10 @@ class Shopifyscrppage extends Component {
 
             <h1 className="checkstorehealth" style={{ color: "white", fontSize: "78px" }} >Check your store's health</h1>
             <p className="counterfeitsandIPinf" style={{ color: "white", fontSize: "30px", left: "20.87%", right: "20.79%" }}> Scan your store for counterfeits and IP infringement.   </p>
-
-            {/* <Link to="./Shopifyscrppagepopup" className="btn btn-primary">hello</Link> */}
-
             <form>
 
               <input className="storeusrl" type="url" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }} placeholder="    Enter your store url" required="required"></input>
-              <button onClick= {() => history.push('/Reporthomepage')} className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>
+              <button onClick= {() => history.push('/Shopifyscrppagepopup')} className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>
              
             </form>
 

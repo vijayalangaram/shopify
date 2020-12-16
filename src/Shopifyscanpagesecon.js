@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-import Reportpage from './Reportpage';
 import './App.css';
-import viewico from './viewico.png';
+import './index.js';
+import history from './history';
+import Reporthomepage from './Reporthomepage'; 
+
 
 class Shopifyscanpagesecon extends Component {
   render() {
@@ -21,11 +23,10 @@ class Shopifyscanpagesecon extends Component {
 
 
 <div className="contact_submit2" >
-<input className="storeusrl" type="search" style={{height: "63px", width: "520px", fontSize:"25px", align:"center"}} placeholder= "    Enter your store url"  />              
+<input className="storeusrl" type="search" style={{height: "63px", width: "500px", fontSize:"25px", align:"center"}} placeholder= "" />              
 {/* <button onclick="window.location.href='./Embededpopup.js'" className="Scanbutton" style={{ height: "60px", width: "170px", color: "white", fontSize: "34px", backgroundColor: "black" }} ></button> */}
-<img className="imgscannpopop" src="assets/img/whitescanpopup.png" style={{ height: "60px", width: "170px",}}/>
+<img onClick= {() => history.push('/Reporthomepage')}  className="imgscannpopop" src="assets/img/whitescanpopup.png" style={{ height: "60px", width: "170px",}}/>
 </div>    
-
 
 <div>
   <h1></h1>   
@@ -37,21 +38,20 @@ class Shopifyscanpagesecon extends Component {
 <table width="55%"  height = "130"  align="center" style={{backgroundColor: '#3047eb' }}  >
 <tr> 
 <td>       
-<div className="card_text">
+<div className="SCANNING">
 <img src="assets/img/scnaseco.png"  height="99" width="799"/>
-<h2 className="SCANNING" style={{color: "white",fontSize:"35px",top: "447px", left: "784px", position: "absolute"}}>SCANNING ...</h2>
-
+<h2 className="SCANNING" style={{color: "white",fontSize:"35px",position: "absolute"}}>SCANNING ...</h2>
 </div>
 </td>     
 </tr>
 </table>
 
 
-<table width="40%"  height = "320"  align="center" style={{backgroundColor: 'white' }}  > 
+<table width="53%"  height = "300"  align="center" style={{backgroundColor: 'white' }}  > 
 <tr> 
 <td>       
 <div className="card_text">
-<h1 className="BrandCandychecks">What BrandCandy checks </h1>
+<h2 className="BrandCandychecks">What BrandCandy checks </h2>
 <h2 className="wearenotaff" style={{color: "black",fontSize:"16px"}}> We are not affiliated with Shopify and cannot 100% guarantee against store shut downs.</h2>
 </div>
 </td>
@@ -60,21 +60,14 @@ class Shopifyscanpagesecon extends Component {
 <tr>
 <td>       
 <div className="card_text">
- <h2 className="Intellectual"><img src="assets/img/multi.png" />   Intellectual property infringement</h2>
-<p className="youmaynot" style={{color: "black",fontSize:"17px"}}> You may not offer goods or services, or post or upload Materials, that infringe on the <br/> copyright or trademarks of others. Eg: Using Marvel logos on your product photos.</p>
+ <p className="Intellectual"><img src="assets/img/multi.png" />      Intellectual property infringement</p>
+<p className="youmaynot" style={{color: "black",fontSize:"16px"}}> You may not offer goods or services, or post or upload Materials, that infringe on the <br/> copyright or trademarks of others. Eg: Using Marvel logos on your product photos.</p>
 </div>
 </td>
 </tr>
-
-<br/>
-
 <a href=""  style={{color: '#3047EB'}} >Read official terms on Shopify's website </a>
 <h2></h2>
-
 </table>
-
-
-
 
 </div>
 </div> 

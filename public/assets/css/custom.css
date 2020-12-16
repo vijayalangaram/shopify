@@ -3,6 +3,19 @@
     margin-top: 15px;
     text-align: left;
 }
+.BrandCandypopup{
+  min-height: 100px;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 78px;
+  margin-top: 4px;
+}
+
+.tableofpopupbrndcandy{
+  margin-top: 52px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
 .checkstorehealth
 {
     padding-bottom: 15px;
@@ -20,7 +33,7 @@ font-style: normal;
   .viewdetaih{
     color:#0CA4DF;
     font-size: 20px;
-    margin-left: 255px;
+    margin-left: 180px;
   }
   
   .viewdetaihsecond{
@@ -165,11 +178,37 @@ font-style: normal;
  font-style: normal; 
 }
 
-
-
 .Scannewstore{
   color:white;
   margin-top: 46px;
   font-family: Inter;
   font-style: normal; 
 } 
+
+.SCANNING {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  top: 422px;
+  left: 546px;
+}
+
+.imgscannpopop{
+  margin-bottom: 5px;
+margin-left: 17px;
+}
+
+.BrandCandychecks{
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+margin-right: 270px;
+}
+
+.Intellectual{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 300px;
+}
