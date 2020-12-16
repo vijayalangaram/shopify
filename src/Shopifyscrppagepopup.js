@@ -76,7 +76,8 @@ class Shopifyscrppagepopup extends Component {
 <button style={{height: "40px",width: "120px", color: "black",  fontSize:"15px", backgroundColor: "white" }} >CANCEL</button>            
 </td>
 <td>
-<button onClick= {() => history.push('/Shopifyscanpagesecon')} className="buttoinstallbrndca" style={{height: "50px",width: "200px", color: "grey", backgroundColor: "#3047eb", fontSize:"18px" }} > Install BrandCandy</button>            
+{/* <button onClick= {() => history.push('/Shopifyscanpagesecon')} className="buttoinstallbrndca" style={{height: "50px",width: "200px", color: "grey", backgroundColor: "#3047eb", fontSize:"18px" }} > Install BrandCandy</button>             */}
+<button onClick= {() => {window.location.href='https://clsslabsdev.myshopify.com/password';}}  className="buttoinstallbrndca" style={{height: "50px",width: "200px", color: "grey", backgroundColor: "#3047eb", fontSize:"18px" }} > Install BrandCandy</button>            
 </td>
 </tr>
 <br/>

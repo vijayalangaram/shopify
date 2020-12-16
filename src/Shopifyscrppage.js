@@ -31,12 +31,13 @@ class Shopifyscrppage extends Component {
 
             <h1 className="checkstorehealth" style={{ color: "white", fontSize: "78px" }} >Check your store's health</h1>
             <p className="counterfeitsandIPinf" style={{ color: "white", fontSize: "30px", left: "20.87%", right: "20.79%" }}> Scan your store for counterfeits and IP infringement.   </p>
+           
             <form>
-
               <input className="storeusrl" type="url" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }} placeholder="    Enter your store url" required="required"></input>
               <button onClick= {() => history.push('/Shopifyscrppagepopup')} className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>
-             
+              {/* <button type="url" onClick= {() => {window.location.href='https://clsslabsdev.myshopify.com/password';}} className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} required="required">Scan</button> */}
             </form>
+
 
             <div className="Howitzworks">
               <h2 style={{ color: "white", fontSize: "35px" }}> How it works ? </h2>
