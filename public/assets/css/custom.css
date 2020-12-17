@@ -12,7 +12,7 @@
 }
 
 .tableofpopupbrndcandy{
-  margin-top: 52px;
+  margin-top: -675px;
   border-collapse: separate;
   border-spacing: 0 1em;
 }
@@ -51,7 +51,8 @@ font-style: normal;
   }
 
   .buttoinstallbrndca{
-    margin-left: 350px;
+    margin-left: 468px;
+    margin-top: 10px;
   }
 
 .Scannewstore{
@@ -211,4 +212,31 @@ margin-right: 270px;
   font-weight: bold;
   font-size: 22px;
   margin-right: 300px;
+}
+
+
+.storeusrl{
+  margin-right: 12px;
+  border-radius: 6px;
+}
+
+
+.Scanbutton{
+  font-family: Inter;
+  font-style: normal;
+  border-radius: 6px;
+}
+
+
+.popupdummytab{
+  border-radius: 8px;
+}
+
+.cancelndinsta{
+  margin-top: 17px;
+  margin-bottom: 25px;
+}
+
+.byprocedd{
+  margin-bottom: 25px;
 }

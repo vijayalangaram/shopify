@@ -25,10 +25,7 @@
   color: white;
 }
 
-.storeusrl{
-  margin-right: 12px;
-  border-radius: 6px;
-}
+
  
 .Howitzworks {
   margin-top: 90px;
@@ -317,13 +314,6 @@ line-height: 80px;
   font-family: Inter;
   font-style: normal;
   margin-top: -27px;
-}
-
-
-.Scanbutton{
-  font-family: Inter;
-  font-style: normal;
-  border-radius: 6px;
 }
 
 .contact_submit2{

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import { Router, Switch, Route } from "react-router-dom";
-
 import Shopifyscrppage from '../Shopifyscrppage';
 import Shopifyscanpagesecon from '../Shopifyscanpagesecon';
 import Reportpagethanks from '../Reportpagethanks';  
@@ -9,8 +8,6 @@ import Reporthomepage from '../Reporthomepage';
 import Reportpagereportdownload from '../Reportpagereportdownload';  
 import Shopifyscrppagepopup from '../Shopifyscrppagepopup';  
 import ShopifyscrppageBlackicon from '../ShopifyscrppageBlackicon'; 
-
-
 import history from './history';
 
 

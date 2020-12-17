@@ -14,18 +14,22 @@ class Shopifyscrppagepopup extends Component {
 
     <div className="popupscsa" style={{backgroundColor: '#3047eb',height: '1000px' }}>   
     
-<div className= "BrandCandypopup">
+    <div className= "BrandCandypopup">
   <br/><br/>
-  <h1 style={{ color: "#9ea6b0", align: "left", fontSize: "44px" }}>  <img src="assets/img/fingerlogo.png" /> BrandCandy </h1>
+  <h1 style={{ color: "#6e7ef1", align: "left", fontSize: "44px" }}>  <img src="assets/img/finglite.png" /> BrandCandy </h1>
 </div>
 
+<table className= "popupdummytab" width="67%"  height = "700"  align="center" color="white"  border="0"  style={{backgroundColor: '#f3f5f7'}}  >
 
-<table className= "tableofpopupbrndcandy"  width="55%"  height = "40"  align="center" color="white"  border="1"  style={{backgroundColor: 'white'}}  >
+</table>
+
+
+<table className= "tableofpopupbrndcandy"  width="55%"  height = "40"  align="center" color="white"  border="0"  style={{backgroundColor: 'white'}}  >
 <tr>
 <td>
 <div>  
 <p className="EmbeddedApp" style={{color: "black", align:"left",fontSize:"22px" }}><b>You are about to install Embedded App </b></p>
-<img src="assets/img/onetoanothersec.png" height="142" width="800"/>
+<img src="assets/img/onetoanothersec.png" height="122" width="800"/>
 </div>
 </td> 
 </tr>
@@ -57,11 +61,11 @@ class Shopifyscrppagepopup extends Component {
 </table>
 
 
-<table width="60%"  height = "50"  align="center" color="white"   border="1"  style={{backgroundColor: 'white'}}  >
+<table width="60%"  height = "20"  align="center" color="white"   border="1"  style={{backgroundColor: 'white'}}  >
 <tr>
 <td>
   <br/>
- <p className="toerseurcust" style={{ fontSize:"18px"}} >To erase your customers' personal information from Embedded App, uninstall the app. After 48<br/> hours, a request will be sent to Embedded App to erase this data.  <a href="" style={{color: '#0CA4DF'}} >  Learn more about data privacy.</a> </p>
+ <p className="toerseurcust" style={{ fontSize:"19px"}} >To erase your customers' personal information from Embedded App, uninstall the app. After 48<br/> hours, a request will be sent to Embedded App to erase this data.  <a href="" style={{color: '#0CA4DF'}} >  Learn more about data privacy.</a> </p>
  <br/>
 </td>  
 </tr>
@@ -69,22 +73,20 @@ class Shopifyscrppagepopup extends Component {
 
 
 
-<table  width="60%"  height = "55"  align="center" color="white"   border="0"  style={{backgroundColor: 'white'}}  >
+<table className="cancelndinsta" width="60%"  height = "55"  align="center" color="white"   border="0"  style={{backgroundColor: 'white'}}  >
 <tr>
 <td>
-<br/>  
-<button style={{height: "40px",width: "120px", color: "black",  fontSize:"15px", backgroundColor: "white" }} >CANCEL</button>            
+
+<button style={{height: "40px",width: "120px", color: "black",  fontSize:"15px", backgroundColor: "white" }} >Cancel</button>            
 </td>
 <td>
 {/* <button onClick= {() => history.push('/Shopifyscanpagesecon')} className="buttoinstallbrndca" style={{height: "50px",width: "200px", color: "grey", backgroundColor: "#3047eb", fontSize:"18px" }} > Install BrandCandy</button>             */}
-<button onClick= {() => {window.location.href='https://clsslabsdev.myshopify.com/password';}}  className="buttoinstallbrndca" style={{height: "50px",width: "200px", color: "grey", backgroundColor: "#3047eb", fontSize:"18px" }} > Install BrandCandy</button>            
+<button onClick= {() => {window.location.href='https://clsslabsdev.myshopify.com/password';}}  className="buttoinstallbrndca" style={{height: "45px",width: "200px", color: "#FFFFFF", backgroundColor: "#5966c2", fontSize:"18px" }} > Install BrandCandy</button>            
 </td>
 </tr>
-<br/>
-<br/>
 </table>
 
-<table  width="60%"  height = "40px"  align="center" color="white"   border="0"  style={{backgroundColor: 'white'}}  >
+<table className="byprocedd"  width="60%"  height = "40px"  align="center" color="white"   border="0"  style={{backgroundColor: 'white'}}  >
 <tr>
 <td>
 <div>
@@ -93,8 +95,6 @@ class Shopifyscrppagepopup extends Component {
 </td>
 </tr>
 </table>
-
-
 </div> 
 </div>  
 
