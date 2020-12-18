@@ -94,13 +94,13 @@ class Reporthomepage extends Component {
                      <input type="checkbox" checked /> Adidas <br />
                      <input type="checkbox" checked /> Carbon38 <br />
                      <input type="checkbox" /> H and M <br />
-                     <input type="checkbox" checked/> Nike  <br />
+                     <input type="checkbox" checked /> Nike  <br />
                      <input type="checkbox" /> Superfly <br />
-                     <input type="checkbox" checked/> Ugmonk <br />
+                     <input type="checkbox" checked /> Ugmonk <br />
                      <input type="checkbox" /> Uniqlo <br />
-                     <input type="checkbox" checked/> Zara <br /> <br />
+                     <input type="checkbox" checked /> Zara <br /> <br />
                      <h6><b>SORT BY</b></h6>
-                     <input type="radio" checked/> Match % <br />
+                     <input type="radio" checked /> Match % <br />
                      <input type="radio" /> Sales Volumn <br />
                   </td>
                </tr>
@@ -110,12 +110,12 @@ class Reporthomepage extends Component {
                <tr>
                   <td>
                      <div className="card_text">
-                        <img src="assets/img/shoe1.png"/>
+                        <img src="assets/img/shoe1.png" />
                         <p style={{ color: "grey", fontSize: "18px" }}>Your Store </p>
                      </div>
                   </td>
 
-                  <td style={{ background: "black"}}>
+                  <td style={{ background: "black" }}>
                      <div className="card_text">
                         <img src="assets/img/shoe1.png" />
                         <p style={{ color: "white", fontSize: "18px" }}>Match Found </p>
@@ -124,13 +124,13 @@ class Reporthomepage extends Component {
 
                   <td >
                      <div className="card_text">
-                        <p style={{ fontSize: "16px", fontStyle : "bold" }}> <b> Matched on ?</b> <br /> <a href=""> <u><b> Carbon38.com ↗</b></u> </a> </p>
+                        <p style={{ fontSize: "16px", fontStyle: "bold" }}> <b> Matched on ?</b> <br /> <a href=""> <u><b> Carbon38.com ↗</b></u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle : "bold" }}>99% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}>99% </p>
                      </div>
                   </td>
 
@@ -140,7 +140,7 @@ class Reporthomepage extends Component {
                      </div>
                   </td>
                </tr>
-            
+
 
                <tr>
                   <td>
@@ -165,7 +165,7 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px" , fontStyle : "bold" }}>98% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}>98% </p>
                      </div>
                   </td>
 
@@ -174,7 +174,7 @@ class Reporthomepage extends Component {
                         <button align="center" style={{ height: "42px", width: "131px", color: "black", fontSize: "16px" }}>View Product</button>
                      </div>
                   </td>
-               </tr>   
+               </tr>
 
 
                <tr>
@@ -200,7 +200,7 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle : "bold" }}>95% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}>95% </p>
                      </div>
                   </td>
 
@@ -211,7 +211,7 @@ class Reporthomepage extends Component {
                   </td>
 
 
-               </tr>  
+               </tr>
                <tr>
                   <td>
                      <div className="card_text">
@@ -246,7 +246,7 @@ class Reporthomepage extends Component {
                   </td>
 
 
-               </tr>  
+               </tr>
                <tr>
                   <td>
                      <div className="card_text">
@@ -281,7 +281,7 @@ class Reporthomepage extends Component {
                   </td>
 
 
-               </tr>   
+               </tr>
 
             </table>
 
@@ -354,17 +354,12 @@ class Reporthomepage extends Component {
                         <button>NXT</button>
                      </div>
                   </td>
-
-
                </tr>
             </table>
-
-
 
             <div className="sincewes">
                <p align="center" style={{ fontSize: "17px" }} > <b>Since we're not affiliated with Shopify,If your store still gets <br />shut down you can contact <a href="" >Shopify Support</a> </b> </p>
             </div>
-
 
          </div>
       );

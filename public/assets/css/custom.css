@@ -113,9 +113,8 @@ font-style: normal;
   margin-right:-23px;
 }
 
-.sincewes{
-    margin-left: 145px;
-margin-right: -59px;
+.sincewes {
+margin-left: 211px;
 font-family: Inter;
 font-style: normal;
 font-size: 20px;
@@ -203,7 +202,13 @@ margin-left: 17px;
   font-family: Inter;
 font-style: normal;
 font-weight: bold;
-margin-right: 270px;
+margin-right: 310px;
+}
+
+.wearenotaff{
+  font-family: Inter;
+font-style: normal;
+margin-right: 94px;
 }
 
 .Intellectual{
@@ -239,4 +244,11 @@ margin-right: 270px;
 
 .byprocedd{
   margin-bottom: 25px;
+}
+
+.youmaynot{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  margin-right: 30px;
 }

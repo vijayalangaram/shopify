@@ -11,8 +11,10 @@ class Shopifyscanpagesecon extends Component {
 
     <div className="asdsadApp" >  
 
-<div style={{backgroundColor: '#3047eb',height: '1100px' }}>   
+<div style={{backgroundColor: '#3047eb',height: '900px' }}>   
+
 <div className= "BrandCandy">
+  <br/>
 <h1 style={{ color: "white",align:"left",fontSize:"44px"} }>  <img src="assets/img/fingerlogo.png" /> BrandCandy </h1>         
 </div>
 
