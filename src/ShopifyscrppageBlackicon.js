@@ -14,7 +14,7 @@ class ShopifyscrppageBlackicon extends Component {
 
       <div className="asdsadApp" >
 
-        <div style={{ backgroundColor: '#3047eb', height: '953px' }}>
+        <div style={{ backgroundColor: '#3047eb', height: '900px' }}>
           <Container>
             <Row>
               <Colxx xxs="6">

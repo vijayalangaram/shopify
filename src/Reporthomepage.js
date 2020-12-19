@@ -124,13 +124,13 @@ class Reporthomepage extends Component {
 
                   <td >
                      <div className="card_text">
-                        <p style={{ fontSize: "16px", fontStyle: "bold" }}> <b> Matched on ?</b> <br /> <a href=""> <u><b> Carbon38.com ↗</b></u> </a> </p>
+                        <p style={{ fontSize: "16px", fontStyle: "bold" }}> <b> Matched on  <img src="assets/img/miniquestionmark.png" /></b> <br /> <a href=""> <u><b> Carbon38.com ↗</b></u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}>99% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}><b>99%</b></p>
                      </div>
                   </td>
 
@@ -159,13 +159,13 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /> <a href=""> <u><b> H & M.com↗</b> </u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on  <img src="assets/img/miniquestionmark.png" /></b> <br /> <a href=""> <u><b> H & M.com↗</b> </u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}>98% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}><b>98%</b></p>
                      </div>
                   </td>
 
@@ -194,13 +194,13 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /><a href=""> <u><b> Nike.com↗</b></u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on  <img src="assets/img/miniquestionmark.png" /></b> <br /><a href=""> <u><b> Nike.com↗</b></u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}>95% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px", fontStyle: "bold" }}><b>95%</b></p>
                      </div>
                   </td>
 
@@ -229,13 +229,13 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /> <a href=""> <u><b> Uniqlo.com↗</b></u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on  <img src="assets/img/miniquestionmark.png" /></b> <br /> <a href=""> <u><b> Uniqlo.com↗</b></u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px" }}>85% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px" }}><b>85%</b></p>
                      </div>
                   </td>
 
@@ -264,13 +264,13 @@ class Reporthomepage extends Component {
 
                   <td>
                      <div className="card_text">
-                        <p style={{ fontSize: "16px" }}> <b>Matched on ?</b> <br /> <a href=""> <u> <b>Ugmonk.com↗</b></u> </a> </p>
+                        <p style={{ fontSize: "16px" }}> <b>Matched on  <img src="assets/img/miniquestionmark.png" /></b> <br /> <a href=""> <u> <b>Ugmonk.com↗</b></u> </a> </p>
                      </div>
                   </td>
 
                   <td>
                      <div className="card_text">
-                        <p className="ninperce" style={{ color: "red", fontSize: "18px" }}>82% </p>
+                        <p className="ninperce" style={{ color: "red", fontSize: "18px" }}><b>82%</b></p>
                      </div>
                   </td>
 

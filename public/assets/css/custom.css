@@ -252,3 +252,24 @@ margin-right: 94px;
   font-weight: bold;
   margin-right: 30px;
 }
+
+.Reportpagethankstab {
+  background-color: #50B83C;
+  color: aliceblue;
+  margin-top: -74px;
+  font-family: Inter;
+ font-style: normal;
+ font-weight: bold;
+  margin-bottom: 19px;
+  border-radius: 6px;
+}
+
+.Reportpagereportdownloadtab{
+  background-color: #FFD855;
+  margin-bottom: 19px;
+  margin-top: -74px;
+}
+
+.matchedon{
+  margin-left: -10px;
+}

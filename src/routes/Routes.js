@@ -16,7 +16,7 @@ export default class Routes extends Component {
       return (
           <Router history={history}>
               <Switch>
-                  <Route path="/" exact component={Shopifyscrppage} />
+                  <Route path="/" exact component={Reportpagereportdownload} />
                   <Route path="/Reporthomepage" component={Reporthomepage} />
                   <Route path="/Shopifyscrppagepopup" component={Shopifyscrppagepopup} />
                   <Route path="/ShopifyscrppageBlackicon" component={ShopifyscrppageBlackicon} />
