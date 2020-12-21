@@ -9,6 +9,7 @@ import Reportpagethanks from './Reportpagethanks';
 import Reportpagereportdownload from './Reportpagereportdownload';
 import Shopifyscrppagepopup from './Shopifyscrppagepopup';
 import ShopifyscrppageBlackicon from './ShopifyscrppageBlackicon';
+import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
 import './App.css';
 import './index.js';
@@ -309,6 +310,46 @@ class Reporthomepage extends Component {
             </table>
 
 
+            <div className="pagtablepagin">
+               <Pagination size="md" aria-label="Page navigation example">
+                  <PaginationItem>
+                     <PaginationLink first href="#" />
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink previous href="#" />
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        1
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        2
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        3
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        4
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink next href="#" />
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink last href="#" />
+                  </PaginationItem>
+               </Pagination>
+            </div>
+
+
+
+            {/* 
             <table class="paginationbot" height="90" align="center" >
                <tr>
                   <td>
@@ -355,10 +396,13 @@ class Reporthomepage extends Component {
                      </div>
                   </td>
                </tr>
-            </table>
+            </table> */}
+
+
 
             <div className="sincewes">
-               <p align="center" style={{ fontSize: "17px" }} > <b>Since we're not affiliated with Shopify,If your store still gets <br />shut down you can contact <a href="" >Shopify Support</a> </b> </p>
+               <br/>
+               <p align="center" style={{ fontSize: "17px" }} > <b>Since we're not affiliated with Shopify,  If your store still gets <br />shut down you can contact <a href="" >Shopify Support</a> </b> </p>
             </div>
 
          </div>

@@ -3,6 +3,15 @@
     margin-top: 15px;
     text-align: left;
 }
+
+.BrandCandyscanpagesecon{
+  margin-top: 0px;
+  margin-left: 24px;  
+  min-height: 100px;
+  margin-top: -3px;
+  text-align: left;
+}
+
 .BrandCandypopup{
   min-height: 100px;
   margin-top: 15px;
@@ -189,9 +198,10 @@ font-style: normal;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
-  top: 422px;
+  top: 405px;
   left: 546px;
 }
+
 
 .imgscannpopop{
   margin-bottom: 5px;
@@ -272,4 +282,9 @@ margin-right: 94px;
 
 .matchedon{
   margin-left: -10px;
+}
+
+.pagtablepagin{
+  margin-left: 660px;
+margin-top: 30px;
 }

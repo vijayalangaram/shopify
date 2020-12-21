@@ -8,7 +8,7 @@ import Brandcandypaymentpage from './Brandcandypaymentpage';
 import Reportpagereportdownload from './Reportpagereportdownload';
 import Shopifyscrppagepopup from './Shopifyscrppagepopup';
 import ShopifyscrppageBlackicon from './ShopifyscrppageBlackicon';
-
+import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import './App.css';
 import './index.js';
 import history from './history';
@@ -468,56 +468,47 @@ class Reportpagethanks extends Component {
             </table>
 
 
-            <table class="paginationbot" height="90" align="center" >
-               <tr>
-                  <td>
-                     <div>
-                        <button>PRE</button>
-                     </div>
-                  </td>
+            <div className="pagtablepagin">
+               <Pagination size="md" aria-label="Page navigation example">
+                  <PaginationItem>
+                     <PaginationLink first href="#" />
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink previous href="#" />
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        1
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        2
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        3
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink href="#">
+                        4
+        </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink next href="#" />
+                  </PaginationItem>
+                  <PaginationItem>
+                     <PaginationLink last href="#" />
+                  </PaginationItem>
+               </Pagination>
+            </div>
 
-                  <td>
-                     <div>
-                        <button>1</button>
-                     </div>
-                  </td>
-
-                  <td>
-                     <div>
-                        <button>2</button>
-                     </div>
-                  </td>
-
-
-                  <td>
-                     <div>
-                        <button>3</button>
-                     </div>
-                  </td>
-
-
-                  <td>
-                     <div>
-                        <button>4</button>
-                     </div>
-                  </td>
-
-                  <td>
-                     <div>
-                        <button>5</button>
-                     </div>
-                  </td>
-
-                  <td>
-                     <div>
-                        <button>NXT</button>
-                     </div>
-                  </td>
-               </tr>
-            </table>
 
             <div className="sincewes">
-               <p align="center" style={{ fontSize: "17px" }} > <b>Since we're not affiliated with Shopify,If your store still gets <br />shut down you can contact <a href="" >Shopify Support</a> </b> </p>
+               <br/>
+               <p align="center" style={{ fontSize: "17px" }} > <b>Since we're not affiliated with Shopify,  If your store still gets <br />shut down you can contact <a href="" >Shopify Support</a> </b> </p>
             </div>
 
          </div>

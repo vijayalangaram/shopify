@@ -7,29 +7,29 @@ import Carbonpagesecond from './Carbonpagesecond';
 import Aluminipage from './Aluminipage';
 import Shopifyscanpagesecon from './Shopifyscanpagesecon';
 import Brandcandypaymentpage from './Brandcandypaymentpage';
-import Reportpagethanks from './Reportpagethanks';  
-import Reporthomepage from './Reporthomepage';  
-import Reportpagereportdownload from './Reportpagereportdownload';  
-import Shopifyscrppagepopup from './Shopifyscrppagepopup';  
-import ShopifyscrppageBlackicon from './ShopifyscrppageBlackicon'; 
+import Reportpagethanks from './Reportpagethanks';
+import Reporthomepage from './Reporthomepage';
+import Reportpagereportdownload from './Reportpagereportdownload';
+import Shopifyscrppagepopup from './Shopifyscrppagepopup';
+import ShopifyscrppageBlackicon from './ShopifyscrppageBlackicon';
 
- 
+
 function App() {
-  return (    
-    <div className="App" >              
+  return (
+    <div className="App" >
 
-         <Routes/>
+      <Routes />
 
-        {/* <Shopifyscrppage/> */}
-        {/* <ShopifyscrppageBlackicon/> */}
-         {/* <Shopifyscrppagepopup/> */}
-        {/* <Shopifyscanpagesecon/> */}
-         {/* <Reporthomepage/> */}
-         {/* <Reportpagethanks/>  */}
-         {/* <Reportpagereportdownload/> */}
-         {/* <Brandcandypaymentpage/>    */}
-         {/* <Carbonpagesecond/>  */}
-           {/* <Aluminipage/>*/}
+      {/* <Shopifyscrppage/> */}
+      {/* <ShopifyscrppageBlackicon/> */}
+      {/* <Shopifyscrppagepopup/> */}
+      {/* <Shopifyscanpagesecon/> */}
+      {/* <Reporthomepage/> */}
+      {/* <Reportpagethanks/>  */}
+      {/* <Reportpagereportdownload/> */}
+      {/* <Brandcandypaymentpage/>    */}
+      {/* <Carbonpagesecond/>  */}
+      {/* <Aluminipage/>*/}
     </div>
   );
 }
