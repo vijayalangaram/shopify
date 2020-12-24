@@ -20,8 +20,13 @@ export default class Routes extends Component {
                     <Route path="/" exact component={Shopifyscrppage} />
                     <Route path="/Reporthomepage" component={Reporthomepage} />
                     <Route path="/Shopifyscrppagepopup" component={Shopifyscrppagepopup} />
-                    <Route path="/ShopifyscrppageBlackicon" component={ShopifyscrppageBlackicon} />
                     <Route path="/Shopifyscanpagesecon" component={Shopifyscanpagesecon} />
+                    <Route path="/ShopifyscrppageBlackicon" component={ShopifyscrppageBlackicon} />
+
+                    {/* <Route path="/app" /> */}
+
+                    <Route path="/Reportpagereportdownload" component={Reportpagereportdownload} />
+                    <Route path="/Reportpagethanks" component={Reportpagethanks} />
                 </Switch>
             </Router>
         )

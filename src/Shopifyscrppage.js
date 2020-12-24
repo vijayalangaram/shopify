@@ -2,23 +2,22 @@ import React, { Component } from "react";
 import './App.css';
 import './index.js';
 import history from './history';
-import Shopifyscrppagepopup from './Shopifyscrppagepopup';
+// import Shopifyscrppagepopup from './Shopifyscrppagepopup';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Colxx, Separator } from './components/CustomBootstrap';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { endPoints } from './config';
+import axios from "axios";
 
 class Shopifyscrppage extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
-      enterinpuurl: '',
-    }
+      shopurl: "",
+    };
   }
-
 
   handleToastError = (error) => {
     toast.error(error, {
@@ -30,21 +29,57 @@ class Shopifyscrppage extends Component {
   };
 
 
-  handleenterinpuurl = event => {
-    // let { enterinpuurl } = this.state;
+  myChangeHandler = (event) => {
+    this.setState({shopurl: event.target.value});
+  }
+
+
+  scaninputurl = async () => {
+    debugger
+    // try {
+    let { shopurl } = this.state;
+    const data = await axios.get(endPoints.inputshopifyurl, {
+      params: {
+        shopurl,
+      },
+    });
+    const result = data.data.data.data;
+    // console.log(response.data);  
+    console.log(result);
+
+    //   if (response.data.statusCode===200) {
+    //     let result =  response.data;
+    //     setTimeout(()=>{ 
+    //        window.location = "http://d4fb71c523a1.ngrok.io/shopify-api/oauth/redirect";
+    //      },500) ;
+    //   } 
+    // } catch (error) {   
+    //   console.log(error);
+    // }
+  };
+
+
+
+
+
+
+
+  handleshopurl = event => {
+    // let { shopurl } = this.state;
     // console.log(event);
     // this.setState({
-    //   enterinpuurl: event.target.value,     
+    //   shopurl: event.target.value,     
     // })
-    // if (enterinpuurl==0) {
+    // if (shopurl==0) {
     //   handleToastError("Enter Input Must Be a URL Only");
     //   return;
     // }
   }
 
+ 
 
   render() {
-    let { enterinpuurl } = this.state;
+    let { shopurl } = this.state;
     return (
       <div className="asdsadApp" >
 
@@ -67,13 +102,19 @@ class Shopifyscrppage extends Component {
             <h1 className="checkstorehealth" style={{ color: "white", fontSize: "78px" }} >Check your store's health</h1>
             <p className="counterfeitsandIPinf" style={{ color: "white", fontSize: "30px", left: "20.87%", right: "20.79%" }}> Scan your store for counterfeits and IP infringement.   </p>
 
-            <form>
-              <input className="storeusrl" type="url" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }} placeholder="    Enter your store url" required="required"></input>
-              <button onClick={() => history.push('/Shopifyscrppagepopup')} className="Scanbutton" name="enterinpuurl" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>
+            <form onSubmit={this.scaninputurl}>
 
-              {/* <button onClick= {() => this.handleenterinpuurl (history.push('/Shopifyscrppagepopup'))} value={this.state.enterinpuurl} className="Scanbutton" name= "enterinpuurl" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>          */}
+             <input className="storeusrl" type="url" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }}  value={this.state.shopurl} onChange={this.myChangeHandler}  placeholder="    Enter your store url" required="required"></input>
 
+              {/* <button onClick={() => history.push('/app')} className="Scanbutton"  value={this.state.shopurl}  style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button> */}
+                      
+              <input type="submit" value="Scan" className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} />
+              
+              <h4>URL {this.state.shopurl}</h4>
+              
+              {/* <button onClick= {() => this.handleshopurl (history.push('/Shopifyscrppagepopup'))} value={this.state.shopurl} className="Scanbutton" name= "shopurl" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>          */}
               {/* <button type="url" onClick= {() => {window.location.href='https://clsslabsdev.myshopify.com/password';}} className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} required="required">Scan</button> */}
+              {/* <a href="/app" className="Scanbutton" value={this.state.shopurl} style={{ height: "63px", width: "180px", color: "red", fontSize: "34px", backgroundColor: "blue" }} >Scan</a> */}
             </form>
 
 
