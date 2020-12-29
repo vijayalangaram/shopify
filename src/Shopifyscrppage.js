@@ -10,6 +10,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { endPoints } from './config';
 import axios from "axios";
+import util from './util/util';
 
 class Shopifyscrppage extends Component {
   constructor(props) {
@@ -41,7 +42,6 @@ class Shopifyscrppage extends Component {
     const response = await axios.get(`${endPoints.inputshopifyurl}?shopurl=${shopurl}`);
     console.log(response.data);
     console.log(response);
-
     if (response && response.data.statusCode == 200) {
       let result = response.data;      
     } 
