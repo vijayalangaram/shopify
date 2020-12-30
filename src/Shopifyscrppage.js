@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import './App.css';
 import './index.js';
-import history from './history';
 // import Shopifyscrppagepopup from './Shopifyscrppagepopup';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Colxx, Separator } from './components/CustomBootstrap';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { endPoints } from './config';
-import axios from "axios";
-import util from './util/util';
+// import axios from "axios";
+import { axiosInstnace as axios} from './util/util';
+import { endPoints, domain } from './config';
+import {history}from './history/history';
+
 
 class Shopifyscrppage extends Component {
   constructor(props) {
