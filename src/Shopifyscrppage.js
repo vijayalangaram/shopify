@@ -39,13 +39,13 @@ class Shopifyscrppage extends Component {
 
   scaninputurl = async () => {
     debugger
-    let  shopurl = this.state;
+    let {shopurl}  = this.state;
     const response = await axios.get(`${endPoints.inputshopifyurl}?shopurl=${shopurl}`);
     
     console.log(response.data);
     console.log(response.data.data.data);
     console.log(response);
-    
+
     if (response && response.data.statusCode == 200) {
       let result = response.data;      
     } 
