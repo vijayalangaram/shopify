@@ -8,9 +8,9 @@ import { Colxx, Separator } from './components/CustomBootstrap';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import axios from "axios";
-import { axiosInstnace as axios} from './util/util';
+import { axiosInstnace as axios } from './util/util';
 import { endPoints, domain } from './config';
-import {history}from './history/history';
+import { history } from './history/history';
 
 
 class Shopifyscrppage extends Component {
@@ -37,18 +37,19 @@ class Shopifyscrppage extends Component {
 
 
 
-  scaninputurl = async () => {
+  scaninputurl = async (e) => {
     debugger
-    let {shopurl}  = this.state;
-    const response = await axios.get(`${endPoints.inputshopifyurl}?shopurl=${shopurl}`);
-    
-    console.log(response.data);
-    console.log(response.data.data.data);
-    console.log(response);
+    e.preventDefault()
+    let { shopurl } = this.state;
+    const response = await axios.get(`${endPoints.inputshopifyurl}?url=${shopurl}`);
+
+    console.log('vjvjvjvjvjv33' + response);
+    console.log('vjvjvjvjvjv' + response.data);
 
     if (response && response.data.statusCode == 200) {
-      let result = response.data;      
-    } 
+      let response = response.data;
+    }
+    console.log('response' + response);
   };
 
 
