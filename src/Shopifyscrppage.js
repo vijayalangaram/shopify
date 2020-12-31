@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './App.css';
 import './index.js';
 // import Shopifyscrppagepopup from './Shopifyscrppagepopup';
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+//import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Colxx, Separator } from './components/CustomBootstrap';
 import { ToastContainer, toast } from "react-toastify";
@@ -39,10 +39,13 @@ class Shopifyscrppage extends Component {
 
   scaninputurl = async () => {
     debugger
-    let { shopurl } = this.state;
+    let  shopurl = this.state;
     const response = await axios.get(`${endPoints.inputshopifyurl}?shopurl=${shopurl}`);
+    
     console.log(response.data);
+    console.log(response.data.data.data);
     console.log(response);
+    
     if (response && response.data.statusCode == 200) {
       let result = response.data;      
     } 
