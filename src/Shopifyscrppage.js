@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './App.css';
 import './index.js';
 // import Shopifyscrppagepopup from './Shopifyscrppagepopup';
-//import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Colxx, Separator } from './components/CustomBootstrap';
 import { ToastContainer, toast } from "react-toastify";
@@ -10,6 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 // import axios from "axios";
 import { axiosInstnace as axios } from './util/util';
 import { endPoints, domain } from './config';
+import { Alert } from 'react-alert'
 import { history } from './history/history';
 
 
@@ -41,15 +42,16 @@ class Shopifyscrppage extends Component {
     debugger
     e.preventDefault()
     let { shopurl } = this.state;
-    const response = await axios.get(`${endPoints.inputshopifyurl}?url=${shopurl}`);
-
-    console.log('vjvjvjvjvjv33' + response);
-    console.log('vjvjvjvjvjv' + response.data);
-
-    if (response && response.data.statusCode == 200) {
-      let response = response.data;
-    }
-    console.log('response' + response);
+    await axios.get(`${endPoints.inputshopifyurl}?url=${shopurl}`).then(response => {
+      if (response && response.data.code == 200) {        
+        // return <Redirect to={response.data.url} />;      
+        //return response;
+        //return window.location.href = response.data.url;    
+        window.open(response.data.url, 'sharer', 'toolbar=0,status=0,width=548,height=325')
+      }
+      console.log('responseafter200statuscode: ' + response.data.url);     
+    });
+    
   };
 
 
