@@ -48,6 +48,8 @@ class Shopifyscrppage extends Component {
         //return response;
         //return window.location.href = response.data.url;    
         window.open(response.data.url, 'sharer', 'toolbar=0,status=0,width=548,height=325')
+      } else if  (response && response.data.code != 200) { 
+        alert("Something went Wrong! Enter Valid shopify URL")
       }
       console.log('responseafter200statuscode: ' + response.data.url);     
     });
