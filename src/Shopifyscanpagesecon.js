@@ -26,7 +26,7 @@ class Shopifyscanpagesecon extends Component {
 
 
             <div className="contact_submit2" >
-              <input className="storeusrl" type="search" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }} placeholder="" />
+              <input className="storeusrl" type="search" style={{ height: "63px", width: "500px", fontSize: "25px", align: "center" }} placeholder= "" />
               {/* <button onclick="window.location.href='./Embededpopup.js'" className="Scanbutton" style={{ height: "60px", width: "170px", color: "white", fontSize: "34px", backgroundColor: "black" }} ></button> */}
               <img onClick={() => history.push('/Reporthomepage')} className="imgscannpopop" src="assets/img/whitescanpopup.png" style={{ height: "60px", width: "170px", }} />
             </div>

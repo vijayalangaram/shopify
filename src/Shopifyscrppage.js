@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './App.css';
 import './index.js';
-// import Shopifyscrppagepopup from './Shopifyscrppagepopup';
+import Shopifyscanpagesecon from './Shopifyscanpagesecon';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Colxx, Separator } from './components/CustomBootstrap';
@@ -43,14 +43,20 @@ class Shopifyscrppage extends Component {
     e.preventDefault()
     let { shopurl } = this.state;
     await axios.get(`${endPoints.inputshopifyurl}?url=${shopurl}`).then(response => {
-      if (response && response.data.code == 200) {               
-        window.open(response.data.url, 'sharer', 'toolbar=0,status=0,width=548,height=325')
-      } else if  (response && response.data.code != 200) { 
+      if (response && response.data.code == 200) {
+        var win = window.open(response.data.redirecturl, 'sharer', 'toolbar=0,status=0,width=548,height=325')
+        var timer = setInterval(function () {
+          if (window.closed) {
+            clearInterval(timer);        
+          }          
+        }, 1000);
+
+      } else if (response && response.data.code != 200) {
         alert("Something went Wrong! Enter Valid shopify URL")
       }
-      console.log('responseafter200statuscode: ' + response.data.url);     
+      console.log('responseafter200statuscode: ' + response.data.url);
     });
-    
+
   };
 
 
@@ -101,7 +107,7 @@ class Shopifyscrppage extends Component {
 
               <input type="submit" value="Scan" className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} />
 
-             
+
 
               {/* <button onClick= {() => this.handleshopurl (history.push('/Shopifyscrppagepopup'))} value={this.state.shopurl} className="Scanbutton" name= "shopurl" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} >Scan</button>          */}
               {/* <button type="url" onClick= {() => {window.location.href='https://clsslabsdev.myshopify.com/password';}} className="Scanbutton" style={{ height: "63px", width: "180px", color: "grey", fontSize: "34px", backgroundColor: "#243cbc" }} required="required">Scan</button> */}
