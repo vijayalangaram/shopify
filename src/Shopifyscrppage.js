@@ -19,6 +19,7 @@ class Shopifyscrppage extends Component {
     super(props);
     this.state = {
       shopurl: "",
+      redirt: "",
     };
   }
 
@@ -41,15 +42,17 @@ class Shopifyscrppage extends Component {
   scaninputurl = async (e) => {
     debugger
     e.preventDefault()
-    let { shopurl } = this.state;
+    let { shopurl,redirt } = this.state;
     await axios.get(`${endPoints.inputshopifyurl}?url=${shopurl}`).then(response => {
       if (response && response.data.code == 200) {
         var win = window.open(response.data.redirecturl, 'sharer', 'toolbar=0,status=0,width=548,height=325')
+        
         var timer = setInterval(function () {
           if (window.closed) {
             clearInterval(timer);        
           }          
         }, 1000);
+        let redirt = history.push('/Shopifyscanpagesecon');
 
       } else if (response && response.data.code != 200) {
         alert("Something went Wrong! Enter Valid shopify URL")
